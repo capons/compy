@@ -1,0 +1,7 @@
+{
+  "require": {
+    "intercom/intercom-php": "*",
+    "guzzlehttp/guzzle": "*",
+    "nubs/random-name-generator": "^2.1"
+  }
+}

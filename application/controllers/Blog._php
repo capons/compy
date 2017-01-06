@@ -1,0 +1,63 @@
+<?php
+	class Blog Extends CI_Controller {
+
+		function index() {
+			$this->load->model('blog_model');
+			$data = array();
+			$this->load->helper('color');
+			$this->load->helper('href');
+			$data['posts'] = $this->blog_model->get();
+			$data['top'] = $this->blog_model->get(0,'top');
+			$data['latest'] = $this->blog_model->get(0,'latest');
+			$data['themes'] = $this->blog_model->get_used_themes();
+			$this->blog_model->get_used_themes();
+			$this->output->cache(10080);
+			$this->load->view('site/blog', $data);
+		}
+
+		function category($id) {
+			$this->load->model('blog_model');
+			$data = array();
+			$this->load->helper('color');
+			$this->load->helper('href');
+			$data['posts'] = $this->blog_model->get(0,'default',$id);
+			$data['top'] = $this->blog_model->get(0,'top');
+			$data['latest'] = $this->blog_model->get(0,'latest');
+			$data['themes'] = $this->blog_model->get_used_themes();
+			$this->blog_model->get_used_themes();
+			$this->output->cache(10080);
+			$this->load->view('site/blog', $data);
+		}
+
+		function tag($id) {
+			$this->load->model('blog_model');
+			$data = array();
+			$this->load->helper('color');
+			$this->load->helper('href');
+			$data['posts'] = $this->blog_model->get(0,'default','', $id);
+			$data['top'] = $this->blog_model->get(0,'top');
+			$data['latest'] = $this->blog_model->get(0,'latest');
+			$data['themes'] = $this->blog_model->get_used_themes();
+			$this->output->cache(10080);
+			$this->load->view('site/blog', $data);
+		}
+
+		function post($id) {
+			$this->load->model('blog_model');
+			$this->load->helper('url');
+			$this->load->helper('debug');
+			$data = array();
+			if (!($temp = $this->blog_model->get($id,'default','','',1,$id))) {
+				$this->load->helper('404');
+				set_404();
+			}
+			$data['post'] = $temp[0];
+			$data['related'] = $this->blog_model->get_related_posts($temp);
+			$data['themes'] = $this->blog_model->get_used_themes();
+			$data['top'] = $this->blog_model->get(0,'top');
+			$data['author_posts'] = $this->blog_model->posts_by_author($data['post']['author_id']);
+			$this->load->helper('href');
+			$this->output->cache(10080);
+			$this->load->view('site/post', $data);
+		}
+	}

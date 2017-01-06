@@ -1,0 +1,606 @@
+/*@media (max-width: 2700px) {
+    #blockMenu{
+        width: 1086px;
+    }
+}*/
+@font-face {
+    font-family: DroidSans; /* Гарнитура шрифта */
+    src: url(/css/fonts/DroidSans.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: DroidSansBold; /* Гарнитура шрифта */
+    src: url(/css/fonts/DroidSansBold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Tahoma; /* Гарнитура шрифта */
+    src: url(/css/fonts/Tahoma.ttf); /* Путь к файлу со шрифтом */
+}
+.personalPageSearchOrdersView,
+.personalPageFriendsView,
+.personalPagePortfolioView,
+.personalPageBlogView{
+    display: none;
+}
+.contentBlock{
+    width: 1086px;
+    min-height: 715px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 55px;
+    position: relative;
+    font-family: tahoma;
+}
+.topPersonalPage{
+    width: 100%;
+    height: 605px;
+    background: url(./img/personalPageTopBackground.png) 100% 100% no-repeat;
+    border-bottom: 1px solid #727070;
+}
+.menuPersonalPage{
+    width: 100%;
+    background: #2c2c2c;
+    height: 60px;
+}
+.personalBlockPhoto{
+    background: #ffffff;
+    top: 289px;
+    left: 38px;
+    width: 283px;
+    height: 333px;
+    border: 3px solid grey;
+    position: relative;
+    float: left;
+}
+.personalBlockPhoto img{
+    height: 333px;
+    width: 283px;
+}
+.blockInfo{
+    background: rgba(63, 63, 63, 0.5);
+    margin-top: -92px;
+    height: 89px;
+    width: 283px;
+    position: relative;
+}
+.statisticsBlock{
+    display: -webkit-box;
+    display: flex;
+}
+.statisticsItem{
+    padding-right: 14px;
+    text-align: center;
+    padding-left: 14px;
+    padding-top: 8px;
+    color: #ffffff;
+}
+.statisticsNumber{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: DroidSans;
+}
+.statisticsText{
+    font-size: 11px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-family: DroidSans;
+}
+.personalSocialBlock{
+    cursor: default;
+}
+.personalSocialBlock a img{
+    height: 26px;
+    width: 26px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 10px;
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+.personalSocialBlock a img:first-child{
+    margin-left: 6px;
+}
+.personalBlockInfo{
+    top: 457px;
+    left: 65px;
+    position: relative;
+    float: left;
+}
+.personalName{
+    font-family: DroidSansBold;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.personalBlockInfo .personalInfo{
+    color: #ffffff;
+    font-family: DroidSans;
+    font-size: 18px;
+    padding-top: 7px;
+}
+.personalBlockInfo .infoAboutPersonal{
+    display: flex;
+    padding-top: 10px;
+}
+.infoAboutPersonal img{
+    margin-left: 23px;
+    cursor: pointer;
+}
+
+/*Menu*/
+
+.menuSettings{
+    display: flex;
+    float: right;
+}
+.buttonMenu{
+    color: #ffffff;
+    width: 148px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    min-width: 85px;
+}
+.buttonMenu:focus,
+.buttonMenu:hover{/*
+    font-weight: bold;*/
+    font-weight: normal;
+}
+.buttonMenuActive,
+.buttonMenuActive:hover,
+.buttonMenuActive:focus{
+    background: #3dcd58;
+    font-weight: normal;
+}
+
+/*=====================Start PersonalPage_Info=====================*/
+.line{
+    border-bottom: 1px solid #a7a7a7;
+    height: 0.5em;
+    margin-bottom: 0.5em;
+    position: relative;
+}
+.line span{
+    background-color: #ffffff;
+    padding: 0px 10px 0px 25px;
+    font-weight: bold;
+    position: relative;
+}
+.blockInfoAboutPersonal{
+    font-family: Tahoma;
+}
+.inscription{
+    color: #949494;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.blockInfoAboutPersonal p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.blockWithInfoText{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+}
+.blockWithText{
+    padding-top: 32px;
+}
+.otherInformation p{
+    padding-top: 22px;
+    padding-left: 23px;
+    padding-right: 37px;
+}
+.blockWithInfoText p{
+    padding-top: 18px;
+}
+.workingInformation .blockWithInfoText p:first-child{
+    font-weight: normal;
+}
+.workingInformation .blockWithInfoText input{
+    margin-left: 30px;
+}
+/*=====================End PersonalPage_Info=====================*/
+/*=====================Start PersonalPage_Search=====================*/
+.blockSearchPersonalPage{
+    position: absolute;
+    top: 13%;
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 671px;
+}
+#blockSearch{
+    margin: 228px auto;
+    margin-right: 25%;
+    margin-left: 25%;
+    height: 235px;
+    width: auto;
+    min-width: 300px;
+    padding-top: 27px;
+    background: rgb(44,44,44);
+    text-align: center;
+    color: #ffffff;
+}
+#formSearch{
+    width: auto;
+    min-width: 300px;
+    margin-top: 12px;
+}
+#blockSearch p{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    cursor: default;
+}
+#inputTypeOfShootingPerformer{
+    min-width: 270px;
+    padding-left: 10px;
+    width: 90%;
+    font-size: 17px;
+    margin-top: 24px;
+    height: 30px;
+}
+#inputTypeOfShooting,
+#inputCity{
+    min-width: 125px;
+    padding-left: 10px;
+    width: 43%;
+    font-size: 17px;
+    margin-top: 22px;
+    height: 30px;
+}
+#buttonSearchForm{
+    margin-top: 22px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid #3dcd58;
+    border-radius: 4px;
+    background: #3dcd58;
+    color: #ffffff;
+    cursor: pointer;
+}
+#closeFormSearch{
+    float: right;
+    margin-top: -38px;
+    height: 17px;
+    cursor: pointer;
+}
+/*=====================End PersonalPage_Search=====================*/
+
+/*=====================Start PersonalPage_Friends=====================*/
+.buttonMenuFriends{
+    width: 120px;
+    text-align: center;
+    color: #bebebe;
+    cursor: pointer;
+    float: left;
+}
+.buttonMenuFriendsActivity{
+    color: #2c2c2c;
+}
+.formSearchFriends{
+    float: right;
+}
+.formSearchFriends p{
+    border: 1px solid #c2c2c2;
+    width: 198px;
+    height: 22px;
+}
+.formSearchFriends p input{
+    outline: none;
+    border: none;
+    padding-left: 11px;
+    font-style: italic;
+}
+#buttonSearch{
+    background: url(./img/imgSearch.png) 100% 100% no-repeat;
+    height: 17px;
+    width: 17px;
+    padding: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.blockFriends{
+    width: 100%;
+    height: auto;
+    margin: 27px auto;
+}
+.blockMenuFriendsAndSearch{
+    height: 100%;
+    min-height: 35px;
+    overflow: hidden;
+}
+.blockFriend{/*
+    background: greenyellow;
+    border: 1px solid green;*/
+    width: 326px;
+    height: 100px;
+    display: inline-flex;
+    padding-left: 30px;
+    margin-bottom: 60px;
+}
+.contentFriends{
+    margin: auto;
+    width: 100%;
+}
+.photoFriend{
+    width: 89px;
+    height: 89px;
+    float: left;
+    border-radius: 50%;
+    border: 4px solid #000000;
+    margin: 1px;
+}
+.infoAboutFriend{
+    float: left;
+}
+.infoAboutFriend p{
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: DroidSans;
+    line-height: 22px;
+}
+.nameFriend{
+    font-size: 18px !important;
+    font-weight: bold;
+    font-family: DroidSansBold !important;
+    padding-top: 7px;
+}
+/*=====================End PersonalPage_Friends=====================*/
+
+/*=====================Start PersonalPage_Portfolio=====================*/
+.buttonMenuPortfolio{
+    width: 175px;
+    text-align: center;
+    color: #bebebe;
+    cursor: pointer;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.buttonMenuPortfolioActivity{
+    color: #2c2c2c;
+}
+.blockPortfolio{
+    width: 260px;
+    height: 260px;
+    margin: 3px;
+}
+.blockMenuPortfolio hr{
+    margin-bottom: 7px;
+}
+/*=====================End PersonalPage_Portfolio=====================*/
+
+/*=====================Start PersonalPage_Blog=====================*/
+.blockBlogWithComments{
+    margin-bottom: 10px;
+}
+.blockBlog{
+    background: #2c2c2c;
+}
+.contentHashtag,
+.recordingDate{
+    color: #aeaeae;
+    font-weight: bold;
+    font-size: 12px;
+}
+.recordingDate{
+    float: right;
+}
+.blockBlog{
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 24px;
+}
+.contentHashtagAndDate{
+    padding-bottom: 10px;
+}
+.blockButtonCommentsAndSocial{
+    color: #aeaeae;
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 14px;
+}
+.blockBlogText{
+    color: #fffefe;
+    font-size: 14px;
+    width: 66%;
+}
+.readMoreBlogText,
+.buttonComments{
+    color: #3dcd58;
+    cursor: pointer;
+}
+.topicRecordingBlockBlog{
+    font-weight: bold;
+    font-size: 16px;
+    color: #fffefe;
+}
+.blockTopicAndButton{
+    margin-bottom: 14px;
+}
+.menuEditBlogSettings,
+.menuBlogSettings{
+    margin-left: 10px;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #919090;
+    cursor: pointer;
+}
+.menuEditBlogSettings{
+    background: url(./img/edditButton.png) 100% 100% no-repeat #3dcd58;
+}
+.menuBlogSettings {
+    background: url(./img/deleteButton.png) 100% 100% no-repeat #3dcd58;
+}
+.blogSocialButton{
+    height: 19px;
+    width: 19px;
+    float: right;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.blogFacebook {
+    background: url(./img/blogFacebook.png) 100% 100% no-repeat;
+}
+.blogVk {
+    background: url(./img/blogVk.png) 100% 100% no-repeat;
+}
+.blogTwitter {
+    background: url(./img/blogTwitter.png) 100% 100% no-repeat;
+}
+.blogLivejournal {
+    background: url(./img/blogLivejournal.png) 100% 100% no-repeat;
+}
+.blogGoogle {
+    background: url(./img/blogGoogle.png) 100% 100% no-repeat;
+}
+.buttonNotComments{
+    color: #aeaeae;
+}
+
+.blockBlogCommentFirst,
+.blockBlogCommentSecond,
+.blockBlogCommentThird{
+    height: auto;
+    background: #2c2c2c;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-right: 8px;
+}
+
+.blockBlogCommentFirst{
+    margin-left: 6%;
+    margin-right: 18%;
+}
+.blockBlogCommentSecond{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.blockBlogCommentThird{
+    margin-left: 18%;
+    margin-right: 6%;
+}
+.blockAuthor{
+    width: 65px;
+    float: left;
+    margin-left: 7px;
+    margin-right: 17px;
+}
+.blockAuthor img{
+    width: 65px;
+}
+.blockAuthorName{
+    text-align: center;
+    font-size: 8px;
+    color: #fffefe;
+}
+.blockAuthorSignature{
+    text-align: center;
+    font-size: 8px;
+    color: #3dcd58;
+}
+.blockCommentData{
+    color: #aeaeae;
+    font-weight: bold;
+    font-size: 8px;
+    text-align: right;
+}
+.commentText{
+    font-size: 12px;
+    color: #fffefe;
+    margin-left: 10px;
+}
+.blockCommentFunctional{
+    text-align: right;
+    padding-top: 7px;
+}
+.blockCommentReply,
+.blockCommentShareIt,
+.blockCommentRemove{
+    font-size: 10px;
+    color: #fffefe;
+}
+.theNumberOfLikes{
+    font-size: 13px;
+    color: #fffefe;
+}
+.theNumberOfDontLikes{
+    font-size: 13px;
+    color: #fffefe;
+}
+.blockCommentFunctional img{
+    height: 17px;
+}
+.commentNotLike,
+.commentLike,
+.blockCommentReply,
+.blockCommentShareIt,
+.blockCommentRemove,
+.buttonAddComments{
+    cursor: pointer;
+}
+.theNumberOfLikes{
+    color: #38a84c;
+    font-size: 10px;
+}
+.theNumberOfNotLikes{
+    color: #d68282;
+    font-size: 10px;
+}
+.blockCommentFunctional{
+    cursor: default;
+}
+.commentNotLike,
+.commentLike,
+.blockCommentReply,
+.blockCommentShareIt,
+.blockCommentRemove{
+    margin-left: 10px;
+}
+.buttonAddComments,
+.buttonCancelComments,
+.buttonPublicComments,
+.buttonAddNewComments{
+    font-size: 13px;
+    color: #fffefe;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.blockBlogNewComment{
+    height: 75px;
+    background: #2c2c2c;
+    margin-top: 10px;
+    margin-left: 6%;
+    margin-right: 6%;
+    overflow: hidden;
+    padding-right: 8px;
+}
+.textComment{
+    margin-left: 10px;
+    width: 98%;
+}
+.blockNewCommentText,
+.blockBlogNewComment span{
+    font-size: 13px;
+    color: #fffefe;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.blockBlogNewComment span{
+    float: right;
+}
+.blockBlogNewComment span{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.blockBlogNewComment{
+    display: none;
+}
+/*=====================End PersonalPage_Blog=====================*/

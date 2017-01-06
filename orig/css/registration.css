@@ -1,0 +1,18 @@
+.registrationDiv {
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+}
+
+.registrationLine {
+    position: relative;
+
+
+}
+
+.RegistrationSubmitButton {
+    position: relative;
+    margin: 0 auto;
+    bottom: 0;
+
+}

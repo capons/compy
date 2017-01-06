@@ -1,0 +1,134 @@
+.table {
+  border:2px solid #c57219;
+  font-size: 12px;
+  background-color: #c57219;
+  color: #EFEFEF;
+    width: 1328px;
+    height: 465px;
+
+}
+td {
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 0;
+}
+/* Current date */
+.table .curr { background-color: #EFDC0E;}
+
+/* Weekend  */
+.table .weekend { background-color: #A7BBDF;}
+
+/* Cell link */
+.table td a {text-decoration: none; color: #2F2F2F;display: block;height:100%;vertical-align: middle;padding:15px 0;}
+
+/* Cell link hover */
+.table td:hover {background-color: #aaccee;}
+
+/* Name of the selected month (at the top) */
+.monthName {margin: 2px; text-align: center; font-size: 22px; color: #000000;}
+
+/* Next-Prev arrows */
+.monthName a {color: #111111; text-decoration:none; }
+.next {float:right;}
+.prev {float:left;}
+
+pre {background-color: #eeeeee; font-size:12px;}
+
+/*==== Calendar New ====*/
+
+#titleTopCalendar{
+    width: 99%;
+    margin: 0 auto;
+   /* margin-left: -40%;*/
+    padding-bottom: 17px;
+}
+.next{
+    height: 55px;
+    width: 26px;
+    background: url(/css/img/arrowRightCalendar.png) 100% 100% no-repeat #2c2c2c !important;
+}
+.prev{
+    height: 55px;
+    width: 26px;
+    background: url(/css/img/arrowLeftCalendar.png) 100% 100% no-repeat #2c2c2c !important;
+    text: none;
+}
+.calendar_container{
+   margin-top: 114%;
+}
+.monthName{
+    /*background: url(/css/img/manthBackground.png) 100% 100% #2c2c2c no-repeat;
+    height: 67px;
+    margin: 0px !important;
+    text-align: center;
+    font-size: 22px;
+    width: 99% !important;*/
+    margin: 0px;
+    width: 99% !important;
+}
+.monthName span{
+    /* color: #ffffff;*/
+    width: 99%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 48px;
+    font-family: BerlinSansFBReg;
+}
+.table {
+    border: none !important;
+    font-size: 12px;
+    background-color: #2c2c2c !important;
+    color: #EFEFEF !important;
+    width: 1328px;
+    height: 465px;
+    border-spacing: initial !important;
+    width: 99% !important;
+}
+
+.table tr th{
+    background: #2c2c2c;
+    color: #929393;
+    text-transform: lowercase;
+    border: none;
+    height: 48px;
+    font-size: 25px;
+}
+.table tr td{
+    background: #2c2c2c !important;
+    border-right: 7px solid #ffffff !important;
+    border-bottom: 7px solid #ffffff !important;
+    color: #ffffff !important;
+    text-transform: lowercase;
+    border: none;
+    height: 75px;
+    font-size: 30px;
+}
+.table tr td:last-child{
+    border-right: none !important;
+}
+.table tr:last-child  td{
+    border-bottom: none !important;
+}
+.table tr:last-child  td:last-child{
+    border-right: 7px solid #ffffff !important;
+}
+
+.table tr td a{
+    color: #ffffff !important;
+    cursor: default;
+}
+/*.table tr td a:hover, .table tr td a:focus{
+    font-weight: bold;
+}*/
+
+/*
+.weekend, .curr{
+    background: #000000 !important;
+}*/
+.curr a{
+    color: #000000 !important;
+    background: #3dcd58 !important;
+}
+.calendar_container{
+    position: relative !important;
+}

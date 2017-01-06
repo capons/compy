@@ -1,0 +1,3655 @@
+
+@media screen and (max-width: 1859px) {
+    .map {
+        width: 100%;
+    }
+    .mainTitle h1 {
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 1835px) {
+    .titleQuestion {
+        margin: 10px;
+    }
+    .mainTitle ul li:first-child {
+        margin-left: 0;
+    }
+    .mainTitle ul li:last-child {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 1890px) {
+    .newService {
+        height: 297px;
+        width: 450px;
+    }
+    .serviceText {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1750px) {
+    .newService {
+        height: 255px;
+        width: 350px;
+    }
+    .serviceText > div {
+        padding: 0 20px;
+        height: 155px;
+    }
+    .serviceText,
+    .serviceText div div {
+        font-size: 16px;
+    }
+    #indexTechnologies p {
+        font-size: 24px;
+        max-width: 210px;
+    }
+    #indexTechnologies {
+        padding: 0;
+    }
+    .adv {
+        margin: 0 10px;
+    }
+}
+@media screen and (max-width: 1750px) and (min-width: 1441px){
+    #indexCompetenciesBack .containerWidth {
+        padding: 0 110px;
+    }
+}
+@media screen and (max-width: 1725px) {
+    .testimonialsList {
+        padding: 0 30px;
+    }
+    .testimonialsList li:nth-child(2n) {
+        padding: 0 100px 0 150px;
+    }
+}
+@media screen and (max-width: 1570px) {
+    .technTitle {
+        font-size: 22px;
+    }
+    .technList {
+        font-size: 16px;
+    }
+    #technologies > li:nth-child(-n+3) {
+        margin-bottom: 80px;
+    }
+    #technologies > li {
+        padding: 0;
+        height: 270px;
+        width: 360px;
+    }
+    .values li p {
+        font-size: 24px;
+    }
+    .values li div {
+        font-size: 18px;
+    }
+    .values li img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .headerMainContainer {
+        max-width: 1400px;
+        padding: 0;
+    }
+    #navMenu li {
+        font-size: 14px;
+    }
+    .aboutUsHead h1 {
+        font-size: 34px;
+        padding: 120px 0 40px;
+    }
+    .credoBlock {
+        padding: 100px 15px 30px;
+    }
+    .capabilities {
+        padding-bottom: 60px;
+    }
+    .seeWorks {
+        font-size: 18px;
+    }
+    .guarantContainer {
+        max-width: 1100px;
+    }
+    .guarant {
+        width: 110px;
+        height: 110px;
+    }
+    .place {
+        bottom: 64px;
+    }
+    .num {
+        font-size: 48px;
+    }
+    .capabilities {
+        width: 1020px;
+    }
+    .capability p {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .capability {
+        width: 240px;
+        height: 130px;
+        margin: 45px;
+        padding: 20px;
+    }
+    .capabilityDescr {
+        width: 240px;
+        height: 245px;
+        margin: 45px;
+        padding: 20px;
+    }
+    .capabilityDescr div {
+        font-size: 16px;
+    }
+    .capabilityDescr p {
+        font-size: 14px;
+    }
+    .measuring {
+        width: 630px;
+        padding: 60px 0 90px;
+    }
+    .measuring li {
+        width: 210px;
+    }
+    .measureColumns li p {
+        font-size: 16px;
+    }
+    .teamBlock .measureText p {
+        font-size: 16px;
+    }
+    .teamBlock p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    #employees {
+        margin: 30px auto 20px;
+        max-width: 1000px;
+    }
+    .employee {
+        width: 130px;
+        height: 130px;
+    }
+    .seeEmployees {
+        font-size: 16px;
+        padding: 12px 20px;
+        border: 1px solid #fff;
+    }
+    .links p {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    .readBtn {
+        font-size: 16px;
+        padding: 10px 0;
+        border: 2px solid #fff;
+    }
+    .blogLink,
+    .photoLink {
+        width: 400px;
+    }
+    .blogImg {
+        background-size: contain;
+        width: 250px;
+        height: 200px;
+    }
+    .photoImg {
+        background-size: contain;
+        width: 250px;
+        height: 200px;
+    }
+    .links > div:last-child:hover .photoImg,
+    .links > div:first-child:hover .blogImg {
+        width: 250px;
+        height: 200px;
+        background-size: contain;
+    }
+    .socLinks a {
+        margin: 5px auto;
+    }
+    .socLinks .be {
+        width: 34px;
+        height: 25px;
+        background-size: contain;
+    }
+    .socLinks .fb,
+    .socLinks .tw,
+    .socLinks .in,
+    .socLinks .fl,
+    .socLinks .dr,
+    .socLinks .git,
+    .socLinks .stack {
+        width: 25px;
+        height: 25px;
+        background-size: contain;
+    }
+    .socLinks .ggl {
+        width: 37px;
+        height: 25px;
+        background-size: contain;
+    }
+    .socLinks .you {
+        width: 31px;
+        height: 25px;
+        background-size: contain;
+    }
+    .socLinks {
+        width: 37px;
+        margin: 0 130px;
+    }
+    .map {
+        padding: 0 50px;
+        max-width: 1100px;
+    }
+    .map img {
+        width: 100%;
+    }
+    .contact {
+        max-width: 1100px;
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    .contactFormBlock {
+        font-size: 16px;
+    }
+    #persData,
+    #robot {
+        width: 700px;
+    }
+    input[type="text"] {
+        border: 1px solid #fff;
+        margin: 3px 0;
+        font-size: 14px;
+        padding: 5px 0 7px 15px;
+    }
+    #persData input[type="text"] {
+        width: 343px;
+    }
+    #persData input[name=userContacts] {
+        width: 692px;
+    }
+    #persData textarea[name=userMessage] {
+        width: 692px;
+        max-width: 692px;
+        border: 1px solid #fff;
+        margin: 3px;
+        font-size: 14px;
+        padding: 5px 0 7px 15px;
+    }
+    #persData textarea[name=userMessage]:focus {
+        height: 100px;
+    }
+    #captcha {
+        width: 163px;
+        border: 1px solid #fff;
+        margin: 3px;
+        font-size: 14px;
+    }
+    input[name="inputCaptcha"] {
+        width: 140px;
+        padding: 5px 0;
+    }
+    input[value="Send"] {
+        font-size: 14px;
+        width: 190px;
+        border: 1px solid #fff;
+    }
+    .sendBlock a {
+        width: 190px;
+        margin-right: 3px;
+    }
+    .inputBlock {
+        width: 345px;
+    }
+    .sendBlock {
+        width: 350px;
+    }
+    .modal-dialog {
+        font-size: 30px;
+        width: 780px;
+        height: 360px;
+        border: 3px solid #fff;
+        line-height: 1.5;
+    }
+    .modal-dialog img {
+        margin-top: 30px;
+        width: 90px;
+    }
+    .modal-dialog p {
+        font-size: 28px;
+    }
+    .modal-dialog p:nth-of-type(2) {
+        font-size: 22px;
+    }
+    .modal-dialog p:nth-of-type(3) {
+        font-size: 18px;
+    }
+    .okBtn {
+        font-size: 24px;
+    }
+    .modal-dialog a:first-of-type {
+        font-size: 40px;
+        margin-right: 15px;
+    }
+    #footer {
+        font-size: 15px;
+    }
+    #footer p {
+        max-width: 1100px;
+    }
+    .footerContainer {
+        max-width: 1100px;
+        padding: 20px 0 0;
+    }
+    .copyright {
+        padding-bottom: 45px;
+    }
+    .footerbe {
+        width: 21px;
+        height: 15px;
+    }
+    .footerSocIcons .footerfb,
+    .footerSocIcons .footertw,
+    .footerSocIcons .footerin,
+    .footerSocIcons .footerfl,
+    .footerSocIcons .footerdr,
+    .footerSocIcons .footerstack,
+    .footerSocIcons .footergit {
+        width: 15px;
+        height: 15px;
+    }
+    .footerSocIcons .footerggl {
+        width: 22px;
+        height: 15px;
+    }
+    .footeryou {
+        width: 18px;
+        height: 15px;
+    }
+    .column {
+        font-size: 14px;
+    }
+    .column img {
+        width: 20px;
+    }
+    .skypelink {
+        width: 12px;
+        height: 12px;
+        background-size: contain;
+    }
+    .mailto {
+        width: 18px;
+        height: 12px;
+        background-size: contain;
+    }
+    .footerSocIcons {
+        min-width: 225px;
+    }
+    .copyright {
+        max-width: 1100px;
+        font-size: 14px;
+    }
+    #contactsHeaderText p {
+        font-size: 16px;
+        padding: 0 0 30px;
+    }
+    #sendEmail {
+        font-size: 18px;
+    }
+    #contactsHeaderText {
+        padding: 0 200px;
+    }
+    #contactsMission {
+        border: 2px solid #fff;
+        font-size: 22px;
+        margin: 40px auto 50px;
+    }
+    .contactsPageBlock .contact {
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0 20px;
+    }
+    .contactsPageBlock {
+        padding: 0;
+        max-width: 1100px;
+    }
+    #competenciesHeaderText {
+        font-size: 30px;
+        margin-top: 100px;
+        padding: 30px 0 40px;
+    }
+    .logoClientsContent h2 {
+        font-size: 24px;
+    }
+    #feedbackSpan h2 {
+        font-size: 24px;
+    }
+    .technTitle {
+        font-size: 18px;
+    }
+    .technList {
+        font-size: 12px;
+    }
+    #technologies > li {
+        height: 240px;
+    }
+    .technTitle {
+        margin-bottom: 5px;
+    }
+    #technologies {
+        max-width: 1100px;
+        padding-left: 50px;
+    }
+    #technologies > li:nth-child(-n+3) {
+        margin-bottom: 10px;
+    }
+    .portfolioBlockContainer {
+        max-width: 1100px;
+    }
+    #portfolio .workDescription h2 {
+        font-size: 28px;
+    }
+    #portfolio {
+        font-size: 18px;
+        min-height: calc(100vh - 334px);
+    }
+    .seeWork {
+        border-width: 2px;
+        font-size: 18px;
+        padding: 10px 90px;
+    }
+    .portfolioBlockContainer > div {
+        width: 545px;
+    }
+    .learnreaderImg img {
+        width: 480px;
+    }
+    .learnreaderImg {
+        margin-top: 47px;
+    }
+    .portfolioBlockColumn.learWorkDescription {
+        padding-top: 55px;
+    }
+    #clientImages {
+        max-width: 1100px;
+        margin: 95px auto 60px;
+    }
+    .client img {
+        width: 70%;
+    }
+    .blogPageContainer {
+        max-width: 1100px;
+        margin: 0 auto 30px;
+    }
+    #blognav li {
+        font-size: 16px;
+    }
+    #blogList > li,
+    #blogListPopular > li,
+    #blogListLatest > li {
+        font-size: 16px;
+        padding: 0 10px 30px;
+    }
+    .blogHeader {
+        margin-bottom: 40px;
+    }
+    .articleHead {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+    .articleDate {
+        font-size: 18px;
+        height: 55px;
+    }
+    #articleContainer {
+        max-width: 1100px;
+    }
+    .articleMainContent {
+        width: 780px;
+    }
+    .articleRightContent {
+        width: 280px;
+    }
+    .authorPhoto img {
+        width: 150px;
+    }
+    .authorName {
+        font-size: 16px;
+        padding-bottom: 35px;
+    }
+    .subTitle {
+        font-size: 14px;
+    }
+    .subArticle {
+        font-size: 12px;
+    }
+    .articlePopTitle {
+        font-size: 14px;
+        margin: 10px 0 20px;
+    }
+    .abstract {
+        font-size: 18px;
+        padding: 0;
+        width: 200px;
+    }
+    .articleBlogText {
+        font-size: 14px;
+    }
+    .abstractContainer {
+        font-size: 14px;
+    }
+    .shareSoc {
+        margin: 20px 0 55px;
+    }
+    .articleTags {
+        font-size: 14px;
+    }
+    .workListItem {
+        font-size: 14px;
+    }
+    .workListItem li div {
+        font-size: 12px;
+    }
+    .selectDefault {
+        height: 20px;
+        overflow: hidden;
+        max-width: calc(100% - 10px);
+    }
+    #filters input[type="text"],
+    #filters button {
+        font-size: 14px;
+    }
+    #clear {
+        top: -6px;
+        font-size: 28px;
+    }
+    #sliderBack p {
+        max-width: 1100px;
+    }
+    #filters {
+        width: 1100px;
+    }
+    .indexTechnTitle {
+        font-size: 18px;
+    }
+    .indexTechnList {
+        font-size: 12px;
+        top: 240px;
+    }
+    .indexTechnTitle a {
+        margin-bottom: 30px;
+    }
+    #indexTechnologies p {
+        font-size: 22px;
+    }
+    #indexTechnologies > li:nth-child(4) p {
+        max-width: 90px;
+    }
+    .portfolioContainer .containerWidth > ul ul li {
+        padding: 20px 0;
+    }
+    #feedbackSpan {
+        padding: 30px 0 80px;
+    }
+    #feedbackSpan h2 {
+        margin-bottom: 0;
+    }
+    .popupImgObj {
+        max-height: 94%;
+        margin: 1% auto 0;
+    }
+    .selectParent {
+        top: 15px;
+        background-position-y: 6px;
+    }
+    .seeClients {
+        font-size: 18px;
+    }
+    .seeTest {
+        font-size: 18px;
+    }
+    #persData input[type="text"]:first-child {
+        margin: 3px 1px;
+    }
+    .testimonialsList img {
+        padding: 20px 1px;
+    }
+    .contactFormBlock h1 {
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    #navWorks h1 {
+        font-size: 30px;
+    }
+    #filters {
+        margin: 15px auto 0;
+    }
+    .careersContainer {
+        width: 1100px;
+    }
+    .vacancyContainer .seeWorks {
+        font-size: 14px;
+        padding: 8px 25px;
+    }
+    .notFoundContent {
+        font-size: 16px;
+    }
+    .notFoundContent img {
+        width: 120px;
+    }
+    .notFoundContent div:first-of-type {
+        margin-bottom: 15px;
+    }
+    .cpblogContainer {
+        max-width: 1100px;
+    }
+    .newService {
+        height: 260px;
+        width: 390px;
+    }
+    .serviceText > div {
+        height: 150px;
+        width: 400px;
+        padding: 0 45px;
+    }
+    .serviceText div div {
+        font-size: 14px;
+    }
+    .workPage {
+        margin-top: 110px;
+    }
+    .workPage h1 {
+        padding-bottom: 20px;
+    }
+    .workPage h1 {
+        font-size: 26px;
+    }
+    .aboutusHeadText {
+        font-size: 24px;
+    }
+    .graphic {
+        font-size: 20px;
+    }
+    .graph {
+        width: 500px;
+    }
+    .slider {
+        width: 100%;
+        padding: 30px 15px;
+    }
+    .carousel-arrow-right {
+        right: 15px;
+    }
+    .carousel-arrow-left {
+        left: 15px;
+    }
+    .employee {
+        padding: 10px 25px;
+    }
+    .socialLinks {
+        padding-top: 20px;
+    }
+    .socialLinks a {
+        font-size: 36px;
+    }
+    .offices h2 {
+        padding: 30px 0;
+    }
+    .left, .right {
+        font-size: 34px;
+    }
+    /* new main page */
+    h2 {
+        font-size: 30px;
+        padding: 30px 0 60px;
+    }
+    .mainTitle h1 {
+        font-size: 64px;
+    }
+    .mainTitle p {
+        font-size: 34px;
+        padding: 60px 0 40px;
+    }
+    .testimonialsList {
+        padding: 0 60px;
+    }
+    .caseStudies > ul {
+        padding: 0 60px;
+    }
+    .caseStudies .hover div {
+        font-size: 18px;
+    }
+    .testimonialsList li {
+        font-size: 17px;
+    }
+    .testimonialsList img {
+        width: 200px;
+    }
+    .contactForm {
+        width: 880px;
+    }
+    .contactForm input[type="text"],
+    .contactForm input[type="email"],
+    .contactForm textarea {
+        font-size: 18px;
+        /*margin: 1% 1% 0;*/
+    }
+    .contactFormBlockMain .attachments {
+        margin-top: 1px;
+
+    }
+    .contactForm input[type="text"],
+    .contactForm input[type="email"] {
+        height: 45px;
+    }
+    .attachments {
+        height: 45px;
+        line-height: 45px;
+        font-size: 18px;
+    }
+    .contactFormBlockMain .attachments .icon {
+        line-height: 45px;
+    }
+    .contactForm textarea {
+        height: 120px;
+    }
+    #indexTechnologies {
+        padding: 0 60px;
+    }
+    #indexCompetenciesBack .deskImg,
+    #indexCompetenciesBack .webImg,
+    #indexCompetenciesBack .mobImg,
+    #indexCompetenciesBack .designImg,
+    #indexCompetenciesBack .qaImg {
+        margin: 0 auto 20px;
+        background: url("../img/mainExpertiseSprite2.png") no-repeat;
+        height: 129px;
+    }
+    #indexCompetenciesBack .webImg {
+        width: 173px;
+    }
+    #indexCompetenciesBack .deskImg {
+        width: 173px;
+        background-position: -185px 0;
+    }
+    #indexCompetenciesBack .mobImg {
+        width: 92px;
+        background-position: -369px 0;
+    }
+    #indexCompetenciesBack .designImg {
+        width: 173px;
+        background-position: -472px 0;
+    }
+    .technologiesExpertise > li:first-child:hover .webImg {
+        background-position: 0 -133px;
+    }
+    .technologiesExpertise > li:nth-child(3):hover .deskImg {
+        background-position: -185px -133px;
+    }
+    .technologiesExpertise > li:nth-child(2):hover .mobImg {
+        background-position: -369px -133px;
+    }
+    .technologiesExpertise > li:nth-child(4):hover .designImg {
+        background-position: -472px -133px;
+    }
+    .technologiesExpertise .deskImg,
+    .technologiesExpertise  .webImg,
+    .technologiesExpertise .mobImg,
+    .technologiesExpertise .designImg,
+    .technologiesExpertise .qaImg {
+        margin: 0 auto 20px;
+        background: url("../img/mainExpertiseSprite2.png") no-repeat;
+        height: 129px;
+    }
+    .deskImg,
+    .technologiesExpertise .deskImg {
+        width: 173px;
+        background-position: -185px -267px;
+    }
+    .webImg,
+    .technologiesExpertise .webImg {
+        width: 173px;
+        background-position: 0 -267px;
+    }
+    .mobImg,
+    .technologiesExpertise .mobImg {
+        width: 92px;
+        background-position: -369px -267px;
+    }
+    .designImg,
+    .technologiesExpertise .designImg {
+        width: 173px;
+        background-position: -472px -267px;
+    }
+    .technologiesExpertise > li:hover p {
+        color: #fa950b;
+    }
+    .containerWidth {
+        padding: 0 20px;
+    }
+    .mainPageSlide .align .containerWidth  {
+        padding: 0 80px;
+    }
+    .headerContainerWidth {
+        padding: 0 20px;
+    }
+    .mainTitle {
+        width: 75%;
+    }
+    .mainTitle h1 {
+        font-size: 50px;
+    }
+    .mainTitleInner p {
+        font-size: 18px;
+    }
+    .mainTitleInner {
+        width: 290px;
+        padding-left: 0;
+    }
+    .custom {
+        font-size: 24px;
+        padding: 30px 0 60px 15px;
+    }
+    .quote {
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    .titleQuestion {
+        font-size: 16px;
+        width: 280px;
+    }
+    .titleQuestionContent {
+        width: 260px;
+    }
+    .titleQuestion > div {
+        padding: 20px 15px;
+        height: 85px;
+    }
+    .quest {
+        font-size: 12px;
+    }
+    .attachments .icon {
+        line-height: 45px;
+    }
+    .graphicText {
+        font-size: 20px;
+    }
+    .testimonials h1 {
+        padding: 120px 0 30px;
+    }
+    .testimonials .testimonial:nth-child(odd) {
+        width: 100%;
+        margin: 30px auto;
+        padding: 0 60px;
+    }
+    .titleQuestion .alignAnsw,
+    .titleQuestion .alignQuest {
+        padding: 30px 10px;
+    }
+    .credo div:first-child {
+        font-size: 20px;
+    }
+    .credo div:last-child {
+        font-size: 16px;
+    }
+    .offices {
+        padding-bottom: 30px;
+    }
+    .valuesContainer {
+        padding: 0 90px 60px;
+    }
+    .values li p {
+        font-size: 18px;
+    }
+    .values li div {
+        font-size: 12px;
+    }
+    #contactsBack .contactFormBlockMain h2:last-of-type {
+        padding: 0 0 30px;
+        font-size: 20px;
+    }
+    .contactsPageBlock {
+        margin: 0 auto 30px;
+    }
+    .caseStudiesPage h3 {
+        font-size: 22px;
+    }
+    .caseStudiesPage p {
+        font-size: 20px;
+    }
+    .scrollDown {
+        bottom: 20px;
+    }
+    .scrollDown img {
+        width: 50px;
+    }
+    .learnMore {
+        font-size: 16px;
+    }
+    .modalFormContent {
+        margin: -150px auto 0;
+        width: 490px;
+    }
+    .modalForm h3 {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    .modalForm p {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    .modalForm input[type="text"] {
+        height: 40px;
+    }
+    .getBtn {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+    .close {
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+        line-height: 18px;
+        top: -17px;
+        right: -17px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .workPageQuarters img,
+    .workEzatik img,
+    .workAudioTM img,
+    .workHealthy img,
+    .workPageCrw img,
+    .workPageTrip img {
+        width: 100%;
+    }
+    #contactsHeaderText p {
+        padding: 0 0 20px;
+    }
+    .workPageGfs img,
+    .workPagePhoenix img,
+    .workPageBird img,
+    .workPagePgi img,
+    .workPageTraveloom img,
+    .workPageWR img,
+    .workOrange img,
+    .workPagePcDuck img,
+    .workPageDetox img,
+    .workPageEmpl img {
+        width: 100%;
+    }
+    .portfolioContainerMob .portfolioContainerImage {
+        padding: 0 25px 30px;
+        box-sizing: border-box;
+    }
+    .portfolioContainerMob .portfolioContainerImage img {
+        width: 100%;
+    }
+    .values li {
+        padding: 15px 0;
+    }
+    .values li img {
+        width: 70%;
+    }
+
+}
+@media screen and (max-width: 1300px) {
+    .contact {
+        margin: 0 20px;
+    }
+    #contactsHeaderText {
+        padding: 0 120px;
+    }
+    #contactsMission {
+        margin: 20px auto 35px;
+        padding: 10px 30px;
+    }
+    #technologies > li:nth-child(-n+3) {
+        margin-bottom: 30px;
+    }
+    #technologies > li {
+        margin-bottom: 30px;
+    }
+    .newService {
+        height: 250px;
+        width: 360px;
+    }
+}
+@media screen and (max-width: 1255px) {
+    #navMenuIndex li {
+        font-size: 16px;
+        padding: 0 12px;
+    }
+    .caseStudies > ul {
+        padding: 0 15px;
+    }
+    .caseStudies .hover div {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1240px) {
+    .workPageLearnReader img {
+        width: 100%;
+    }
+    .map img {
+        width: 100%;
+    }
+    .newServicesList li {
+        margin: 0 130px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .socLinks {
+        margin: 0 140px;
+    }
+    .deskImg,
+    .webImg,
+    .mobImg,
+    .designImg,
+    .qaImg {
+        background: url("../img/sprites_Index_mob.png") no-repeat;
+    }
+    .indexTechnTitle div {
+        margin: 0 auto 30px;
+    }
+    .indexTechnList {
+        top: 165px;
+    }
+    #indexTechnologies > li {
+        padding: 0 10px;
+    }
+    .indexTechnTitle p {
+        font-size: 16px;
+    }
+    .indexTechnList {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 1190px) {
+    .hire {
+        bottom: 0;
+        top: initial;
+        transform: rotate(0deg);
+        width: 115px;
+        right: 15px;
+        height: inherit;
+        padding: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.14);
+    }
+    .contact {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+    .newServicesList li {
+        margin: 0 110px;
+    }
+    .newService {
+        height: 264px;
+        width: 400px;
+    }
+}
+@media screen and (max-width: 1160px) {
+    .footerContainer {
+        padding: 20px 20px 0;
+    }
+    #footer p {
+        padding: 30px 20px 30px;
+    }
+    #navIcon {
+        right: 15px;
+    }
+    .blogPageContainer {
+        padding: 0 15px;
+    }
+    .place {
+        left: 15px;
+    }
+    .headerContainerWidth {
+        padding: 0;
+    }
+    #headerMain {
+        padding: 0;
+        background: #003341;
+        border-width: 0 0 1px;
+    }
+    .headerMainContainer {
+        padding: 0;
+    }
+    .logoFull {
+        margin-left: 0;
+        padding-left: 15px;
+    }
+    #navIcon {
+        display: block;
+    }
+    #navMenu {
+        display: none;
+    }
+    #competenciesBack {
+        height: calc(100vh + 39px);
+    }
+}
+@media screen and (max-width: 1145px) {
+    .careersContainer {
+        width: 100%;
+        padding: 30px 15px;
+    }
+    .vacancyContainer {
+        width: 100%;
+        padding: 120px 15px;
+    }
+    #indexTechnologies {
+        padding: 0 30px;
+    }
+    #indexTechnologies p {
+        font-size: 18px;
+        max-width: 220px;
+    }
+    .containerWidth.headerContainerWidth {
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width: 1120px) {
+    .portfolioBlockContainer {
+        width: 100%;
+    }
+    .portfolioBlockContainer > div {
+        width: 49%;
+    }
+    #articleContainer {
+        max-width: 100%;
+    }
+    .articleMainContent {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 30px;
+    }
+    .articleRightContent {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 30px;
+    }
+    .shareSoc {
+        width: 350px;
+    }
+    .articlePopImg {
+        width: 350px;
+    }
+    #headerMainIndex {
+        display: none;
+    }
+    .headerMainIndexMobile {
+        display: block;
+        z-index: 101;
+        position: fixed;
+    }
+    .searchBlock {
+        padding: 0 15px;
+    }
+    .workListItem {
+        padding: 0 15px;
+    }
+    #popupForm {
+        width: 90%;
+    }
+    #popupForm2 {
+        width: 90%;
+    }
+    .closeForm {
+        right: -5%;
+    }
+    .mainPageSlide .align .containerWidth {
+        padding: 0 60px;
+    }
+    .titleQuestion {
+        font-size: 14px;
+        width: 225px;
+    }
+}
+
+@media (max-width: 1080px), (max-height: 680px) and (orientation: landscape) {
+    .headerText h2 {
+        font-size: 40px;
+    }
+    .headerText p {
+        font-size: 25px;
+        line-height: 1.75;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .contactFormBlock p {
+        line-height: 1.5;
+    }
+    .footerContainer {
+        padding: 15px 50px;
+    }
+    .column {
+        width: 24%;
+    }
+    .column:first-child,
+    .column:nth-child(4) {
+        width: 14%;
+    }
+    .footerContainer {
+        padding: 15px 25px 0;
+    }
+    .copyright {
+        padding: 0 25px 15px;
+    }
+    .contactsPageBlock .contact {
+        margin: 0 15px;
+    }
+    #filters {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .values li {
+        width: 32.5%;
+    }
+}
+@media screen and (max-width: 1030px) {
+    #contactsHeaderText {
+        padding: 0 60px;
+    }
+    .logoClients li {
+        width: 170px;
+    }
+    .logoClients img {
+        max-width: 170px;
+    }
+    .logoClients li {
+        height: 120px;
+    }
+    .logoClients img {
+        top: 15px !important;
+    }
+    .logoClients li {
+        height: 100px;
+    }
+    .graph {
+        width: 400px;
+    }
+    .capability {
+        width: 200px;
+        height: 130px;
+        margin: 20px;
+    }
+    .capabilityDescr {
+        width: 200px;
+        height: 290px;
+        margin: 20px;
+    }
+    .capabilities {
+        width: 730px;
+    }
+    .mainTitle h1 {
+        font-size: 40px;
+    }
+    .mainTitle p {
+        font-size: 28px;
+        padding: 40px 0 25px;
+    }
+    h2 {
+        font-size: 28px;
+        padding: 30px 0;
+    }
+    .caseStudies ul {
+        padding: 0 15px;
+    }
+    .testimonialsList {
+        padding: 0 20px;
+    }
+    .caseStudies ul li {
+        width: 100%;
+        padding: 15px;
+    }
+    .caseStudies > ul {
+        padding: 0 120px;
+    }
+    .caseStudies .hover div {
+        font-size: 20px;
+    }
+    .testimonialsList li {
+        font-size: 18px;
+    }
+    .testimonialsList img {
+        width: 150px;
+    }
+    .mainTitleInner p {
+        font-size: 17px;
+    }
+    .mainTitle {
+        width: 71%;
+    }
+    .custom {
+        padding: 15px 0 90px 15px;
+    }
+    #indexCompetenciesBack h2 {
+        font-size: 28px;
+        padding: 15px 0 60px;
+    }
+    .newService {
+        height: 198px;
+        width: 295px;
+    }
+    .serviceText {
+        font-size: 14px;
+    }
+    .serviceText > div {
+        padding: 0 15px;
+    }
+    .testimonialsList li {
+        font-size: 15px;
+    }
+    #headerForm .contactForm {
+        max-width: 700px;
+    }
+    .attachments .icon {
+        line-height: 45px;
+    }
+    #headerForm .contactForm input[type="text"],
+    #headerForm .contactForm input[type="email"] {
+        width: 49.25%;
+    }
+    #headerForm .contactForm input[type="text"]:first-of-type,
+    #headerForm .contactForm input[type="email"]:first-of-type{
+        margin-right: 0.5%;
+    }
+    .graphicText {
+        font-size: 16px;
+    }
+
+    .titleQuestion .alignAnsw, .titleQuestion .alignQuest {
+        padding: 30px 5px;
+        height: 90px;
+    }
+    .titleQuestionContent {
+        width: 220px;
+    }
+    .quest {
+        font-size: 10px;
+    }
+    .caseStudiesPage h3 {
+        font-size: 20px;
+    }
+    .caseStudiesFull h2 {
+        font-size: 24px;
+    }
+    #aboutUs .aboutUsHeadContainer {
+        width: 100%;
+        padding: 0 5%;
+    }
+    .testimonials h1 {
+        font-size: 28px;
+        padding: 60px 0 20px;
+    }
+}
+
+@media (max-width: 980px) {
+    .portfolioContainerWeb .portfolioContainerImage {
+        padding: 0 25px 30px;
+        box-sizing: border-box;
+    }
+    .portfolioContainerWeb .portfolioContainerImage img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 960px) {
+    .contactsBlock {
+        width: 100%;
+        margin: 0;
+        padding: 10px 0;
+    }
+    .contact {
+        padding: 20px 0;
+        font-size: 12px;
+        box-sizing: border-box;
+    }
+    .portfolioContainerDesktop .portfolioContainerImage {
+        padding: 0 25px 30px;
+        box-sizing: border-box;
+    }
+    .portfolioContainerDesktop .portfolioContainerImage img {
+        width: 100%;
+    }
+}
+@media (max-width: 950px) {
+    #blogList,
+    #blogListPopular,
+    #blogListLatest {
+        display: inline-table;
+    }
+    #blogList > li,
+    #blogListPopular > li,
+    #blogListLatest > li {
+        width: 50%;
+    }
+    .indexTechnTitle p > span {
+        display: none;
+    }
+    .indexTechnTitle {
+        margin-bottom: 0;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 910px) {
+    .mainTitle h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .mainTitleInner p {
+        font-size: 14px;
+    }
+    .custom {
+        font-size: 22px;
+        padding: 30px 0 15px 10px;
+        text-align: center;
+    }
+    .titleQuestion {
+        text-align: -webkit-center;
+        width: 395px;
+        display: block;
+        margin: 10px auto;
+    }
+    .mainTitle {
+        display: block;
+        width: 100%;
+    }
+    .mainTitleInner p {
+        font-size: 16px;
+        padding: 15px 0 0 0;
+    }
+    .mainTitleInner {
+        display: block;
+        width: 410px;
+    }
+    .mainPageSlide {
+        height: inherit;
+    }
+    .mainTitleInner .quote {
+        margin-top: 45px;
+    }
+    .testimonialsList li > div {
+        padding: 10px;
+    }
+    .testimonialsList li img {
+        width: 100px;
+    }
+    .testimonialsList li > div:first-child {
+        padding: 10px 0;
+    }
+    .testimonialsList li > div:last-child {
+        padding: 10px 0 10px 10px;
+    }
+    .testimonialsList li:nth-child(even) {
+        padding: 0 25px 0 105px;
+    }
+    .titleQuestion .alignAnsw, .titleQuestion .alignQuest {
+        height: 80px;
+        padding: 20px 10px;
+    }
+    .titleQuestionList {
+        padding-bottom: 60px;
+    }
+    .titleQuestionContent {
+        width: 260px;
+    }
+}
+@media (max-width: 900px) {
+    .socLinks {
+        margin: 0 60px;
+    }
+    .map {
+        padding: 0 25px;
+    }
+    .contactsPageBlock .contact {
+        vertical-align: middle;
+    }
+    .technList {
+        font-size: 14px;
+    }
+    .technTitle {
+        font-size: 18px;
+    }
+    .technTitle p {
+        padding-left: 10px;
+    }
+    #technologies > li {
+        padding: 0 10px;
+        height: 265px;
+        width: 370px;
+    }
+    .careersPhoto h1 {
+        font-size: 24px;
+    }
+    .careerDeskript p {
+        padding: 20px 0 10px;
+        font-size: 16px;
+    }
+    .careerDeskript div {
+        font-size: 12px;
+    }
+    .careersContainer {
+        padding: 120px 15px 30px;
+    }
+    .careerContent p {
+        font-size: 18px;
+        padding: 20px 0;
+    }
+    .positionLocation {
+        font-size: 14px;
+    }
+    .positionName {
+        font-size: 14px;
+    }
+    .position {
+        line-height: 2;
+    }
+    .contactForm {
+        width: 100%;
+        margin: 0;
+    }
+    .services-page {
+        height: auto;
+    }
+    .services-page .content {
+        position: relative;
+        transform: none;
+        top: 0;
+        margin-top: 100px;
+    }
+    .services-page .content h1 {
+        margin-bottom: 0;
+    }
+    .services-page .content .item {
+        margin: 20px 0 0 0;
+        width: 100%;
+        height: 40vw;
+    }
+    .services-page .content .item .text {
+        height: 20vw;
+    }
+}
+
+@media (max-width: 880px) {
+    .headerText h2 {
+        font-size: 33px;
+    }
+    .headerText p {
+        font-size: 20px;
+    }
+    #navIcon {
+        right: 25px;
+    }
+    .headerText {
+        padding: 0 25px;
+    }
+    .aboutusHeadText {
+        font-size: 22px;
+        padding-bottom: 70px;
+    }
+    .employee {
+        width: 95px;
+        height: 95px;
+        padding: 10px 10px;
+    }
+    .left, .right {
+        font-size: 30px;
+    }
+    .blogLink, .photoLink {
+        width: inherit;
+        margin: 0 40px;
+    }
+    .photoImg,
+    .blogImg,
+    .links > div:last-child:hover .photoImg,
+    .links > div:first-child:hover .blogImg {
+        width: 175px;
+        height: 140px;
+    }
+    .socialLinks ul {
+        padding: 0;
+    }
+    .socialLinks a {
+        font-size: 30px;
+        padding: 15px 5px;
+    }
+    .graph {
+        width: 400px;
+        height: 380px;
+    }
+    .graphic li {
+        display: block;
+    }
+    .learnMore {
+        font-size: 14px;
+        padding: 8px 5px;
+    }
+}
+@media (max-width: 860px) {
+    .contactBtns {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .contact {
+        font-size: 20px;
+    }
+    .contactsPageBlock .contact {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+    .contactsBlock {
+        padding: 40px 0 20px;
+    }
+    #contactCanada,
+    #contactGermany,
+    #contactCanadaNew,
+    #contactUSA {
+        display: none;
+    }
+    .map {
+        padding: 0;
+    }
+    .modal-dialog {
+        width: 92%;
+    }
+    #technologies {
+        padding-left: 25px;
+    }
+    .seeClients {
+        display: inline-block;
+        margin: 30px auto;
+    }
+    #contactsBack .contactFormBlockMain h2:last-of-type {
+        font-size: 18px;
+    }
+    .menuLinks {
+        max-width: 600px;
+        margin: auto;
+        padding: 15px 0;
+    }
+    .caseStudiesPage {
+        padding-bottom: 15px;
+    }
+    .caseStudies .menuLinks .link {
+        padding: 15px 5px;
+    }
+}
+@media (max-width: 800px) {
+    .portfolioBlockColumn.learWorkDescription {
+        vertical-align: middle;
+        padding-top: 0;
+    }
+    #portfolio .workDescription h2 {
+        font-size: 24px;
+    }
+    #portfolio {
+        font-size: 14px;
+    }
+    .seeWork {
+        font-size: 14px;
+        padding: 10px 60px;
+    }
+    #portfolio .workDescription p {
+        padding: 3px 0 20px;
+    }
+    .tags li {
+        font-size: 12px;
+        padding-top: 15px;
+    }
+    .learnreaderImg img {
+        width: 380px;
+    }
+    .learnreaderImg {
+        margin-top: 53px;
+    }
+    #indexTechnologies > li {
+        width: 50%;
+        display: inline-block;
+    }
+    #indexTechnologies > li:nth-child(n+2) {
+        padding-bottom: 30px;
+    }
+    #indexTechnologies > li:nth-child(5) {
+        display: inline-block;
+    }
+    .portfolioContainer .containerWidth > ul > li:first-child {
+        display: none;
+    }
+    .portfolioContainer .containerWidth > ul > li > ul > li:last-child {
+        display: none;
+    }
+    .portfolioContainer .containerWidth > ul > li.desktopImg {
+        padding-bottom: 30px;
+    }
+    .seeTest {
+        display: block;
+    }
+    .indexTechnTitle div {
+        margin: 0 auto 5px;
+    }
+    .learnMore {
+        padding: 8px 30px;
+    }
+    #indexCompetenciesBack .deskImg,
+    #indexCompetenciesBack .webImg,
+    #indexCompetenciesBack .mobImg,
+    #indexCompetenciesBack .designImg,
+    #indexCompetenciesBack .qaImg {
+        margin: 0 auto 10px;
+    }
+    .indexTechnList {
+        display: none;
+    }
+    #indexTechnologies .moreBtn.moreBtnIndex {
+        display: inline-block !important;
+        margin: 0 auto 30px;
+    }
+    #indexTechnologies > li {
+        position: static;
+    }
+    #indexCompetenciesBack {
+        position: relative;
+    }
+    .hoverBlock.hoverBlockIndex {
+        top: 50%;
+        padding: 30px 0;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        box-sizing: border-box;
+        background-color: #fa950b;
+        box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+    }
+    .technListHover.technListHoverIndex {
+        font-size: 14px;
+        font-family: "Ebrima", arial, verdana, sans-serif;
+        padding: 0 10px;
+    }
+    .indexTechnTitle a {
+        margin-bottom: 0;
+    }
+    #indexTechnologies .technTitle.technTitleIndex p {
+        color: #fff;
+    }
+    .workListItem ul li {
+        width: 100%;
+    }
+    .workListItem li:first-child div {
+        margin-bottom: 0;
+    }
+    .selectParent {
+        top: 7px;
+    }
+    .workListItem ul li:last-child {
+        height: 40px;
+    }
+    .technologiesExpertise > li {
+        display: inline-block;
+        width: 50%;
+    }
+    .technologiesExpertise {
+        max-width: 660px;
+    }
+    .technologiesExpertise > li:nth-child(n+3) {
+        margin-top: 30px;
+    }
+    .workPage h1 {
+        font-size: 18px;
+    }
+    #indexTechnologies p {
+        padding-top: 0;
+    }
+    .caseStudies ul {
+        padding: 0 60px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .contactForm input[type="text"],
+    .contactForm input[type="email"]{
+        height: 45px;
+    }
+    .contactForm input[type="text"],
+    .contactForm input[type="email"],
+    .contactForm textarea {
+        font-size: 18px;
+    }
+    .contactForm textarea {
+        height: 100px;
+        padding-top: 15px;
+    }
+    .values li p {
+        font-size: 20px;
+    }
+    .indexTechnTitle {
+        padding-bottom: 10px;
+    }
+    .caseStudiesPage h3 {
+        font-size: 18px;
+    }
+    .caseStudiesPage p {
+        font-size: 18px;
+    }
+}
+@media (max-width: 790px) {
+    .technTitle p span {
+        display: none;
+    }
+    #technologies > li:nth-child(n+4) p {
+        line-height: inherit;
+    }
+    .technTitle {
+        text-align: center;
+        width: 100%;
+    }
+    .technTitle p {
+        padding-left: 0;
+        text-align: center;
+        width: 100%;
+        line-height: 2;
+    }
+    .technList {
+        display: none;
+    }
+    #technologies > li {
+        height: 160px;
+        width: 200px;
+    }
+}
+@media (max-width: 780px) {
+    #persData,
+    #robot {
+        width: 500px;
+    }
+    #persData input[type="text"] {
+        width: 243px;
+    }
+    #persData input[type="text"]:first-child {
+        margin-left: 0;
+        margin-right: 4px;
+    }
+    #persData input[name=userContacts] {
+        width: 494px;
+    }
+    #persData textarea[name=userMessage] {
+        width: 494px;
+    }
+    .inputBlock {
+        width: 255px;
+    }
+    .sendBlock {
+        width: 240px;
+    }
+    #captcha {
+        width: 107px;
+    }
+    input[name="inputCaptcha"] {
+        width: 98px;
+        margin: 6px 6px 6px 3px;
+    }
+    .columnMob {
+        display: inline-block;
+    }
+    .column:nth-child(3),
+    .column:nth-child(4) {
+        display: none;
+    }
+    .column span {
+        display: none;
+    }
+    .column {
+        width: 33.3%;
+    }
+    .column:first-child {
+        width: 33.3%;
+    }
+    .modal-dialog img {
+        margin-top: 20px;
+        width: 70px;
+    }
+    .modal-dialog p {
+        font-size: 24px;
+    }
+    .modal-dialog p:nth-of-type(2) {
+        font-size: 18px;
+    }
+    .modal-dialog p:nth-of-type(3) {
+        font-size: 14px;
+    }
+    .okBtn {
+        font-size: 22px;
+        padding: 15px 0 20px;
+    }
+    .modal-dialog {
+        /*height: 280px;*/
+        height: inherit;
+        border: 2px solid #fff;
+    }
+}
+@media (max-width: 768px) and (orientation: portrait) {
+    .mainTitle h1 {
+        text-align: center;
+    }
+    #mainTitleInner {
+        display: none;
+    }
+    #mainTitleInnerMobile {
+        display: block;
+    }
+    .newServicesList li {
+        margin: 0 100px;
+    }
+    .newService {
+        width: 450px;
+    }
+    .serviceText > div {
+        width: 450px;
+    }
+    .serviceText {
+        font-size: 20px;
+    }
+    .footerLinks div {
+        width: 735px;
+    }
+    #navMenuSmall {
+        text-align: center;
+    }
+    #navMenuSmall ul {
+        display: inline-block;
+    }
+    .mainTitleInner {
+        padding-top: 30px;
+    }
+    .mainPageSlide .align .containerWidth {
+        padding: 0 15px;
+    }
+}
+@media (max-width: 740px) {
+    .values li {
+        width: 49%;
+    }
+    .valuesContainer {
+        padding: 0 15px 60px;
+    }
+}
+@media (max-width: 730px) {
+    .capabilities {
+        width: 465px;
+    }
+    .teamBlock p {
+        font-size: 12px;
+    }
+    .capabilityDescr {
+        margin: 10px;
+    }
+    .socLinks {
+        margin: 0 40px;
+    }
+    .employee {
+        width: 130px;
+        height: 130px;
+    }
+    #mapSmaller {
+        display: block;
+    }
+    .capability {
+        width: 140px;
+        height: 120px;
+        margin: 5px;
+        padding: 10px
+    }
+    .capabilityDescr {
+        width: 210px;
+        height: 190px;
+    }
+    .logoClients li {
+        width: 140px;
+    }
+    .logoClients img {
+        max-width: 140px;
+    }
+    .footerMenu ul {
+        width: 510px;
+    }
+    .footerMenu ul li {
+        line-height: 36px;
+    }
+    .footerLinks div {
+        width: 525px;
+        font-size: 12px;
+    }
+    .credoBlock {
+        padding: 30px;
+    }
+    .credo div:first-child {
+        font-size: 18px;
+        width: 150px;
+    }
+    .credo div:last-child {
+        font-size: 14px;
+        width: calc(100% - 155px);
+    }
+}
+@media (max-width: 700px) {
+    .measuring {
+        width: 480px;
+    }
+    .measuring li {
+        width: 160px;
+    }
+    .newServicesList li {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 640px) {
+    #portfolio .workDescription h2 {
+        font-size: 24px;
+    }
+    #portfolio {
+        font-size: 14px;
+    }
+    #portfolio .workDescription p {
+        padding: 0 0 10px;
+    }
+    .learnreaderImg img {
+        width: 320px;
+    }
+    .learnreaderImg {
+        margin-top: 47px;
+    }
+    .tags li {
+        padding-top: 10px;
+    }
+    .column {
+        width: 40%;
+    }
+    .column:first-child {
+        width: 20%;
+    }
+    .footerSocIcons .footerfb,
+    .footerSocIcons .footertw,
+    .footerSocIcons .footerin,
+    .footerSocIcons .footerfl,
+    .footerSocIcons .footerdr,
+    .footerSocIcons .footergit,
+    .footerSocIcons .footerstack {
+        width: 14px;
+        height: 14px;
+    }
+    .footerSocIcons {
+        min-width: 140px;
+    }
+    .telephone {
+        min-width: 140px;
+    }
+    .footerbe {
+        width: 19px;
+        height: 14px;
+    }
+    .footerSocIcons .footerggl {
+        width: 21px;
+        height: 14px;
+    }
+    .footeryou {
+        width: 17px;
+        height: 14px;
+    }
+    .mailto {
+        width: 21px;
+        height: 14px;
+    }
+    .skypelink {
+        width: 14px;
+        height: 14px;
+    }
+    #filters button {
+        font-size: 14px;
+    }
+    .place {
+        width: 75%;
+    }
+    .footerMenu ul {
+        width: 410px;
+    }
+    .caseStudies .hover div {
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px) {
+    #navMenuSmall {
+        text-align: center;
+    }
+    #navMenuSmall ul {
+        text-align: center;
+        display: inline-block;
+    }
+    #filters {
+        margin: 15px auto 0;
+    }
+    #filters input[type="text"] {
+        padding: 2px 0 3px 15px;
+        margin: 0 auto 8px;
+    }
+    #filters button {
+        padding: 2px 15px 3px;
+    }
+    #clear {
+        font-size: 25px !important;
+    }
+    .contact {
+        font-size: 18px;
+    }
+    .contactBtn {
+        font-size: 16px;
+        float: right;
+    }
+    .contactsPageBlock .contactBtns {
+        width: 195px;
+    }
+    .contactsPageBlock .contactAdress {
+        width: calc(100% - 235px);
+    }
+    #competenciesHeaderText {
+        font-size: 20px;
+    }
+    .guarant {
+        width: 80px;
+        height: 80px;
+    }
+    .portfolioBlock {
+        padding: 20px 0 30px;
+    }
+    .portfolioBlockContainer {
+        margin-top: 10px;
+    }
+    .learnreaderImg img {
+        width: 250px;
+    }
+    .learnreaderImg {
+        margin-top: 37px;
+    }
+    .testimonialsList li {
+        width: 100%;
+    }
+    .logoClients img {
+        max-width: 110px;
+    }
+    .logoClients li {
+        width: 110px;
+    }
+    .logoClients li {
+        height: 90px;
+    }
+    #indexCompetenciesHeaderText {
+        font-size: 22px;
+        padding: 30px 0;
+    }
+    .logoClientsContent h2 {
+        font-size: 22px;
+        padding: 30px 0 10px;
+    }
+    .portfolioContainer h2 {
+        padding: 30px 0;
+    }
+    #feedbackSpan h2 {
+        padding: 0 0 20px;
+        font-size: 22px;
+    }
+    .seeClients {
+        font-size: 14px;
+        width: 200px;
+        margin: 0 auto 0;
+    }
+    .portfolioContainer {
+        padding: 0 0 30px;
+    }
+    .seeTest {
+        margin: 0 auto;
+        font-size: 14px;
+        width: 200px;
+    }
+    #feedbackSpan {
+        padding: 30px 0 50px;
+    }
+    .workListItem li:first-child div {
+        display: none;
+    }
+    .contact:first-child {}
+    .contact {
+        width: 200px;
+    }
+    .hire {
+        width: 100px;
+        padding: 5px;
+    }
+    .positionLocation {
+        width: 49%;
+    }
+    .position > li:last-child {
+        width: 49%;
+    }
+    .positionName {
+        width: 100%;
+    }
+    .vacancyContainer h1 {
+        font-size: 24px;
+    }
+    .vacancyContainer p {
+        font-size: 16px;
+        padding: 15px 0;
+    }
+    .descriptionVacancy {
+        font-size: 14px;
+    }
+    .vacancyContainer .seeWorks {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .boldDescr.applyDescr {
+        font-size: 14px;
+    }
+    .technologiesExpertise > li {
+        padding: 0 10px;
+    }
+    .mainTitle h1 {
+        font-size: 36px;
+    }
+    .mainTitle p {
+        font-size: 22px;
+        padding: 30px 0 15px;
+    }
+    #indexTechnologies p {
+        padding-bottom: 10px;
+    }
+    #indexCompetenciesBack .deskImg,
+    .technologiesExpertise .deskImg,
+    #indexCompetenciesBack .webImg,
+    .technologiesExpertise .webImg,
+    #indexCompetenciesBack .mobImg,
+    .technologiesExpertise .mobImg,
+    #indexCompetenciesBack .designImg,
+    .technologiesExpertise .designImg {
+        background: url("../img/mainExpertiseSprite3.png") no-repeat;
+        height: 62px;
+    }
+    #indexCompetenciesBack .webImg {
+        width: 83px;
+    }
+    #indexCompetenciesBack .deskImg {
+        width: 83px;
+        background-position: -86px 0;
+    }
+    #indexCompetenciesBack .mobImg {
+        width: 46px;
+        background-position: -171px 0;
+    }
+    #indexCompetenciesBack .designImg {
+        width: 83px;
+        background-position: -219px 0;
+    }
+    #indexTechnologies > li:first-child:hover .webImg,
+    .technologiesExpertise  > li:first-child:hover .webImg {
+        background-position: 0 -62px;
+    }
+    #indexTechnologies > li:nth-child(3):hover .deskImg,
+    .technologiesExpertise  > li:nth-child(3):hover .deskImg {
+        background-position: -86px -62px;
+    }
+    #indexTechnologies > li:nth-child(2):hover .mobImg,
+    .technologiesExpertise > li:nth-child(2):hover .mobImg {
+        background-position: -171px -62px;
+    }
+    #indexTechnologies > li:nth-child(4):hover .designImg,
+    .technologiesExpertise > li:nth-child(4):hover .designImg {
+        background-position: -219px -62px;
+    }
+
+    .technologiesExpertise .deskImg,
+    .technologiesExpertise .webImg,
+    .technologiesExpertise .mobImg,
+    .technologiesExpertise .designImg,
+    .technologiesExpertise .qaImg {
+        margin: 0 auto 20px;
+        background: url("../img/mainExpertiseSprite3.png") no-repeat;
+        height: 62px;
+    }
+    .technologiesExpertise .webImg {
+        width: 83px;
+        background-position: 0 -124px;
+    }
+    .technologiesExpertise .deskImg {
+        width: 83px;
+        background-position: -86px -124px;
+    }
+    .technologiesExpertise .mobImg {
+        width: 46px;
+        background-position: -171px -124px;
+    }
+    .technologiesExpertise .designImg {
+        width: 83px;
+        background-position: -219px -124px;
+    }
+    .aboutUsHead h1 {
+        font-size: 30px;
+        padding: 120px 0 20px;
+    }
+    .aboutusHeadText {
+        font-size: 18px;
+        padding-bottom: 40px;
+    }
+    .measuring li {
+        width: 120px;
+    }
+    .measuring {
+        width: 360px;
+    }
+    .careersContainer {
+        padding: 100px 15px 30px;
+    }
+}
+
+@media (max-width: 580px) {
+    .employee {
+        width: 100px;
+        height: 100px;
+        padding: 10px 5px;
+    }
+    .caseStudies ul {
+        padding: 0 30px;
+    }
+}
+@media (max-width: 540px) {
+    .photoImg, .blogImg, .links > div:last-child:hover .photoImg, .links > div:first-child:hover .blogImg {
+        width: 120px;
+        height: 95px;
+    }
+    .testimonialsList li div {
+        display: block;
+
+    }
+    .testimonialsList li div:first-child {
+        padding: 0;
+        text-align: center;
+    }
+    .testimonialsList li div:last-child {
+        padding-top: 0;
+    }
+    .testimonialsList li {
+        font-size: 16px;
+    }
+    .testimonialsList img {
+        padding: 15px 0 5px;
+    }
+    .footerLinks ul {
+        width: 320px;
+    }
+    .modalFormContent {
+        width: 90%;
+        padding: 15px 20px 20px;
+        margin: 0 auto;
+    }
+    .modalForm h3 {
+        font-size: 15px;
+        padding: 5px 0;
+    }
+    .modalForm p {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 530px) {
+    .contactFormBlock p {
+        padding: 30px 0;
+        font-size: 20px;
+    }
+    #robot {
+        display: none;
+    }
+    .contactFormBlock {
+        text-align: center;
+        padding: 30px 0 0;
+    }
+    #persData input[type="text"] {
+        width: 177px;
+    }
+    #persData {
+        width: 370px;
+        padding-bottom: 35px;
+    }
+    #persData input[type="text"]:first-child {
+        margin-left: 1px;
+        margin-right: 2px;
+    }
+    input[type="text"] {
+        border: 1px solid #fff;
+        padding: 5px 0 5px 10px;
+    }
+    #persData input[name=userContacts] {
+        width: 360px;
+    }
+    #persData textarea[name=userMessage] {
+        width: 360px;
+    }
+    #persData a {
+        display: inline-block;
+    }
+    input[value="Send"] {
+        font-size: 16px;
+        width: 100px;
+        padding: 5px 0;
+        border-width: 2px;
+        color: #003341;
+        background-color: #fff;
+    }
+    .portfolioBlockColumn.workImg.quartersImg {
+        padding: 90px 0;
+    }
+    .measuring {
+        width: 300px;
+    }
+    .measuring li {
+        width: 100px;
+    }
+    .measureColumns li.run:nth-child(3) {
+        height: 10px;
+        margin-top: 140px;
+    }
+    .measureColumns li.run:nth-child(2) {
+        height: 130px;
+        margin-top: 20px;
+    }
+    .measureColumns li.run:first-child {
+        height: 100px;
+        margin-top: 50px;
+    }
+    .measuring {
+        padding: 0 0 50px;
+    }
+    .measureColumns li p {
+        font-size: 13px;
+        bottom: 0;
+    }
+    .teamBlock .measureText p {
+        font-size: 12px;
+    }
+    .measuring .measureText li {
+        margin-top: 5px;
+    }
+    .credo {
+        padding: 40px 20px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 510px) {
+    #portfolio {
+        font-size: 11px;
+        min-height: calc(100vh - 385px);
+    }
+    .seeWork {
+        font-size: 14px;
+        padding: 5px 30px;
+    }
+    #portfolio .workDescription h2 {
+        font-size: 16px;
+    }
+    #navWorks h1 {
+        font-size: 20px;
+    }
+    .technListHover {
+        font-size: 12px;
+    }
+    .caseStudies {
+        padding-bottom: 0;
+    }
+    .caseStudies .quote, .testimonials .quote {
+        margin: 30px 0 25px;
+    }
+    .footerMenu ul {
+        width: 310px;
+        padding: 15px 0;
+        display: none;
+    }
+    .footerLinks ul {
+        width: 280px;
+        padding: 15px 0;
+    }
+    .footerLinks div {
+        font-size: 14px;
+        word-spacing: normal;
+        width: 310px;
+    }
+    .footerMenu ul li,
+    .footerLinks ul li {
+        line-height: 35px;
+    }
+    .moreBtn.moreBtnIndex {
+        font-size: 10px;
+        padding: 6px 0;
+        width: 60px;
+    }
+    .indexTechnTitle p {
+        font-size: 12px;
+    }
+    #indexTechnologies {
+        padding: 0;
+    }
+    #indexCompetenciesHeaderText {
+        font-size: 18px;
+        padding: 30px 10px;
+    }
+    .logoClientsContent h2 {
+        font-size: 18px;
+        padding: 30px 10px;
+    }
+    #feedbackSpan h2 {
+        font-size: 18px;
+        padding: 0 10px 20px;
+    }
+    .technologiesExpertise .indexTechnList {
+        display: none;
+    }
+    .technologiesExpertise .moreBtn.moreBtnIndex {
+        display: block;
+    }
+    .technologiesExpertise > li {
+        position: static;
+    }
+    .technologiesExpertise {
+        position: relative;
+        padding: 0 15px;
+    }
+    .caseStudies ul {
+        padding: 0 15px;
+    }
+    .graphic li {
+        padding: 0;
+    }
+    .graph {
+        width: 100%;
+        height: 100%;
+    }
+    .graphicText {
+        font-size: 12px;
+    }
+    .caseStudies .menuLinks .link {
+        font-size: 16px;
+    }
+}
+@media (max-width: 500px) {
+    .headerText {
+        top: 18%;
+    }
+    .headerText h2 {
+        font-size: 30px;
+    }
+    .headerText p {
+        font-size: 18px;
+    }
+    .headerText a.seeWorks {
+        font-size: 26px;
+    }
+    .values li p {
+        font-size: 18px;
+    }
+    #logoLoad {
+        margin: -92px auto 0;
+        width: 110px;
+        height: 92px;
+    }
+    .itAssociation { 
+        min-height: 100px;
+    }
+    .itAssociation img { 
+        width:200px;
+    }
+    .itAssociation h4 {
+        clear: none;
+        font-size: 17px;
+        margin-left:-1.5%;
+    }
+}
+@media (max-width: 480px) {
+    .contactBtn {
+        font-size: 15px;
+        width: 145px;
+    }
+    .contactBtns.contact {
+        width: 150px;
+        padding: 20px 0;
+    }
+    .contactAdress {
+        width: calc(100% - 135px);
+    }
+    .contactsPageBlock .contactBtns {
+        width: 115px;
+    }
+    .contactsPageBlock .contactAdress {
+        width: calc(100% - 135px);
+    }
+    .contactsPageBlock .contact {
+        margin: 0;
+    }
+    .contact {
+        width: calc(100% - 200px);
+    }
+    .values li img {
+        width: 150px;
+    }
+    .values li p {
+        font-size: 16px;
+    }
+    .values li div {
+        font-size: 12px;
+    }
+    .titleQuestion {
+        width: 200px;
+        padding: 20px 10px;
+        font-size: 12px;
+    }
+    .custom {
+        padding: 15px 5px;
+    }
+}
+
+@media (max-width: 465px) {
+    .capabilities {
+        width: 390px;
+    }
+    .capability {
+        width: 115px;
+        height: 100px;
+        margin: 5px;
+        padding: 10px 0;
+    }
+    .num {
+        font-size: 36px;
+    }
+    .capability p {
+        font-size: 12px;
+    }
+    .capabilityDescr {
+        width: 180px;
+        margin: 5px;
+        height: 160px;
+    }
+    .capabilityDescr div {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .capabilityDescr p {
+        font-size: 12px;
+    }
+    .technTitle img {
+        height: 35px;
+    }
+    #technologies > li:nth-child(-n+3) {
+        margin-bottom: 0;
+    }
+    #technologies > li {
+        margin-bottom: 0;
+        height: 130px;
+        width: 150px;
+    }
+    .technTitle {
+        font-size: 14px;
+    }
+    .technTitle p {
+        line-height: 1.5;
+    }
+    .portfolioBlock {
+        padding: 10px 0 35px;
+    }
+    .learnreaderImg img {
+        width: 210px;
+    }
+    .learnreaderImg {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 460px) {
+    .headerText h2 {
+        font-size: 24px;
+    }
+    .headerText p {
+        font-size: 20px;
+    }
+    .photoImg, .blogImg, .links > div:last-child:hover .photoImg, .links > div:first-child:hover .blogImg {
+        width: 95px;
+        height: 75px;
+    }
+    .socialLinks {
+        width: 270px;
+        text-align: center;
+    }
+    .socialLinks li{
+        width: 40px;
+    }
+    .newService {
+        height: 200px;
+        width: 280px;
+    }
+    .serviceText > div {
+        height: 125px;
+        width: 300px;
+        padding: 0 10px;
+    }
+    .serviceText {
+        font-size: 16px;
+    }
+    .serviceText div div {
+        font-size: 13px;
+    }
+    .mainTitleInner {
+        width: 250px;
+    }
+    .mainTitleInner img {
+        bottom: -43px;
+        width: 45px;
+    }
+    .socialLinks a {
+        font-size: 18px;
+    }
+    .followBlockContainer {
+        padding: 0 0 15px;
+    }
+    .contactFormBlockMain .attachments {
+        margin-top: 2px;
+    }
+}
+@media (max-width: 420px) {
+    .caseStudies li:hover .hover {
+        opacity: 0;
+    }
+}
+@media (max-width: 400px) {
+    #headerMain {
+        height: 45px;
+    }
+    .headerText h2 {
+        font-size: 20px;
+    }
+    .headerText p {
+        font-size: 16px;
+    }
+    .headerText {
+        top: 90px;
+    }
+    .headerText p {
+        line-height: 1.5;
+        margin: 20px 0 30px;
+    }
+    .headLogoImg {
+        height: 35px;
+    }
+    #headLogoTxt {
+        height: 45px;
+    }
+    .headerMainContainer {
+        height: 45px;
+    }
+    #navIcon {
+        right: 15px;
+        background-size: cover;
+        height: 23px;
+        width: 23px;
+        top: 11px;
+    }
+    #navMenuSmall {
+        top: 46px;
+    }
+    .headerText a.seeWorks {
+        font-size: 22px;
+        padding: 10px 25px;
+    }
+    #filters input[type="text"],
+    #filters button {
+        font-size: 12px;
+    }
+    .workListItem ul li:last-child {
+        height: 35px;
+    }
+    .aboutUsHead {
+        min-height: initial;
+    }
+    .aboutUsHead h1 {
+        font-size: 20px;
+        padding: 110px 0 10px;
+    }
+    .credo {
+        font-size: 15px;
+        margin: 0 30px 10px;
+        letter-spacing: .7px;
+    }
+    .capabilities {
+        width: 285px;
+    }
+    .capability {
+        width: 130px;
+        height: 70px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .capabilityDescr {
+        height: 130px;
+        padding: 10px;
+    }
+    .num {
+        font-size: 24px;
+    }
+    .capability p {
+        font-size: 10px;
+    }
+    .teamBlock p {
+        font-size: 10px;
+        padding: 0;
+    }
+    #employees {
+        margin: 10px auto;
+    }
+    .employee {
+        width: 60px;
+        height: 60px;
+    }
+    .seeEmployees {
+        font-size: 10px;
+        padding: 5px 10px;
+        border: 2px solid #fff;
+    }
+    .teamBlock {
+        padding-bottom: 35px;
+    }
+    .links p {
+        font-size: 15px;
+        padding: 5px 0;
+    }
+    .readBtn {
+        font-size: 13px;
+        border: none;
+        background: #fff;
+        color: #003341;
+        padding: 5px 0;
+    }
+    .blogLink, .photoLink {
+        margin: 0 20px;
+    }
+    .socLinks {
+        width: 59px;
+        margin: 0 25px;
+    }
+    .socLinks .fb,
+    .socLinks .tw,
+    .socLinks .in,
+    .socLinks .fl,
+    .socLinks .dr,
+    .socLinks .git,
+    .socLinks .stack {
+        width: 20px;
+        height: 20px;
+    }
+    .socLinks .be {
+        width: 28px;
+        height: 20px;
+    }
+    .socLinks .ggl {
+        width: 30px;
+        height: 20px;
+    }
+    .socLinks .you {
+        width: 24px;
+        height: 20px;
+    }
+    .socLinks br {
+        display: none;
+    }
+    .map {
+        padding: 0;
+    }
+    .contact {
+        font-size: 14px;
+        vertical-align: middle;
+    }
+    .contactBtns.contact {
+        width: 110px;
+    }
+    .contactAdress {
+        width: calc(100% - 105px);
+    }
+    .contactsBlock {
+        padding: 0 0 25px;
+    }
+    .contactFormBlock p {
+        padding: 5px 30px;
+        font-size: 12px;
+        line-height: 1;
+    }
+    #robot {
+        display: none;
+    }
+    .contactFormBlock {
+        text-align: center;
+        padding: 15px 0 0;
+    }
+    .contactBtn {
+        font-size: 12px;
+        width: 110px;
+        padding: 3px 0;
+        border: 2px solid #003341;
+        margin-bottom: 10px;
+        top: 30px;
+    }
+    #persData input[type="text"] {
+        width: 101px;
+    }
+    #persData {
+        width: 240px;
+    }
+    input[type="text"],
+    #persData textarea[name=userMessage] {
+        border: 2px solid #fff;
+        font-size: 12px;
+        padding: 5px 0 5px 10px;
+    }
+    #persData textarea[name=userMessage] {
+        width: 212px;
+    }
+    #persData a {
+        display: inline-block;
+    }
+    #persData input[name=userContacts] {
+        width: 212px;
+    }
+    input[value="Send"] {
+        font-size: 13px;
+        width: 100px;
+        padding: 5px 0;
+        border-width: 2px;
+        color: #003341;
+        background-color: #fff;
+    }
+    #modal-one p {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    .modal-dialog {
+        /*width: 305px;*/
+        /*height: 225px;*/
+        width: 90%;
+        height: initial;
+        border: 2px solid #fff;
+        line-height: 1.3;
+    }
+    .modal-dialog p {
+        font-size: 14px;
+    }
+    .modal-dialog img {
+        margin-top: 15px;
+        width: 45px;
+    }
+    .modal-dialog a:first-of-type {
+        font-size: 34px;
+        margin-right: 3px;
+        margin-top: -6px;
+        font-family: "Ebrima", arial, verdana, sans-serif;
+    }
+    .column:nth-child(-n+3) {
+        font-size: 12px;
+    }
+    #footer p {
+        padding: 5px 10px 10px;
+    }
+    .footerContainer {
+        padding: 15px 5px;
+    }
+    .columnMob {
+        display: inline-block;
+    }
+    .column:nth-child(3),
+    .column:nth-child(4) {
+        display: none;
+    }
+    .column:first-child {
+        width: 45px;
+    }
+    .column {
+        width: 100px;
+    }
+    .column span {
+        display: none;
+    }
+    .footerSocIcons {
+        margin-top: 25px;
+    }
+    .column img {
+        width: 12px;
+    }
+    a.fb {
+        margin-right: 6px;
+    }
+    a.in {
+        margin-left: 8px;
+    }
+    a.fl {
+        margin-right: 12px;
+    }
+    a.git {
+        margin-right: 13px;
+    }
+    #technologies > li {
+        width: 135px;
+    }
+    .portfolioBlockColumn.workImg.quartersImg {
+        padding: 30px 0;
+    }
+    .client img {
+        width: 90px;
+    }
+    #clientImages {
+        margin: 80px auto 20px;
+        padding: 0;
+    }
+    .goWork {
+        font-size: 11px;
+    }
+    .pointWork {
+        height: 10px;
+        width: 10px;
+        margin: 0 5px -2px 0;
+    }
+    .workListItem {
+        margin: 0 5px;
+        max-width: 90px;
+    }
+    .portfolioBlock {
+        padding: 10px 0 25px;
+    }
+    #portfolio {
+        font-size: 12px;
+    }
+    #portfolio .workDescription h2 {
+        font-size: 14px;
+        padding: 0 0 5px;
+    }
+    #portfolio .workDescription p {
+        font-size: 10px;
+    }
+    .seeWork {
+        font-size: 12px;
+        border: 1px solid #fff;
+        padding: 0 20px;
+        margin: 0;
+    }
+    .tags li {
+        padding-top: 5px;
+    }
+    .tags {
+        font-size: 10px;
+    }
+    .pageNum {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+        margin: 0 5px;
+    }
+    .listPages {
+        padding: 10px 0;
+    }
+    .pageNumDot {
+        font-size: 45px;
+    }
+    #contactsHeaderText h2 {
+        font-size: 20px;
+        padding: 25px 0 10px;
+    }
+    #contactsHeaderText p {
+        font-size: 14px;
+        padding: 10px 15px 20px;
+    }
+    .contactFormBlock h1 {
+        font-size: 20px;
+        padding: 0 0 10px;
+    }
+    #sendEmail {
+        font-size: 14px;
+    }
+    #contactsMission {
+        width: 300px;
+        font-size: 14px;
+        padding: 10px 5px;
+        word-spacing: -1px;
+        margin: 20px auto 15px;
+    }
+    #contactsHeaderText {
+        padding: 0;
+    }
+    .contactsPageBlock .contact {
+        font-size: 14px;
+    }
+    .contactsPageBlock .contact {
+        padding: 20px 0;
+    }
+    .contactsPageBlock .contactBtn {
+        font-size: 12px;
+        width: 115px;
+        padding: 5px 0;
+    }
+    .skypelinkcco {
+        width: 14px;
+        height: 14px;
+    }
+    .seeClients {
+        padding: 10px 15px;
+    }
+    .workPage {
+        margin-top: 100px;
+    }
+    .learnreaderImg {
+        margin-top: 43px;
+    }
+    .learnreaderImg img {
+        width: 170px;
+    }
+    .technListHover.technListHoverIndex {
+        font-size: 11px;
+    }
+    .logoClients li {
+        width: 95px;
+    }
+    .logoClients img {
+        max-width: 95px;
+    }
+    .logoClients li {
+        height: 80px;
+    }
+    .portfolioBlockContainer {
+        margin-top: 10px;
+    }
+    .contact {
+        width: calc(100% - 160px);
+    }
+    .contactsPageBlock .contact {
+        width: calc(100% - 140px);
+        padding: 0;
+    }
+    .desk_expertise,
+    .web_expertise,
+    .mob_expertise,
+    .qa_expertise,
+    .design_expertise,
+    .db_expertise {
+        background: url("../img/spritesCompetencies_mob.png") no-repeat;
+        display: inline-block;
+    }
+    .desk_expertise {
+        background-position: 0 0;
+        width: 50px;
+        height: 37px;
+    }
+    #technologies li:first-child:hover  .web_expertise {
+        background-position-y: -38px;
+    }
+    .web_expertise {
+        background-position: -52px 0;
+        width: 54px;
+        height: 38px;
+    }
+    #technologies li:nth-child(2):hover .desk_expertise {
+        background-position-y: -39px;
+    }
+    .mob_expertise {
+        background-position: -107px 0;
+        width: 27px;
+        height: 38px;
+    }
+    #technologies li:nth-child(3):hover .mob_expertise {
+        background-position-y: -38px;
+    }
+    .qa_expertise {
+        background-position: -136px -1px;
+        width: 42px;
+        height: 39px;
+    }
+    #technologies li:nth-child(4):hover .qa_expertise {
+        background-position: -137px -44px;
+    }
+    .design_expertise {
+        background-position: -180px 0;
+        width: 44px;
+        height: 39px;
+    }
+    #technologies li:nth-child(5):hover .design_expertise {
+        background-position-y: -40px;
+    }
+    .db_expertise {
+        background-position: -225px 0;
+        width: 30px;
+        height: 39px;
+    }
+    .closeHover {
+        right: 5px;
+        top: 5px;
+        height: 25px;
+        width: 25px;
+        font-size: 22px;
+    }
+    .careersPhoto {
+        height: 110px;
+    }
+    .vacancyContainer h1 {
+        font-size: 20px;
+    }
+    .vacancyContainer p {
+        font-size: 14px;
+    }
+    .descriptionVacancy {
+        font-size: 12px;
+    }
+    .boldDescr.applyDescr {
+        font-size: 12px;
+    }
+    .vacancyContainer .seeWorks {
+        font-size: 14px;
+        padding: 7px 15px;
+    }
+    .position > li {
+        padding: 0 5px;
+    }
+    .quote {
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    .caseStudies .quote, .testimonials .quote {
+        font-size: 16px;
+    }
+    .contactForm input[type="text"],
+    .contactForm input[type="email"],
+    .contactForm textarea {
+        font-size: 16px;
+    }
+    .contactForm input[type="text"],
+    .contactForm input[type="email"]{
+        height: 35px;
+    }
+    .contactForm textarea {
+        padding-top: 8px;
+    }
+    .mainTitle h1 {
+        font-size: 19px;
+    }
+    .mainTitle {
+        padding: 60px 0 0;
+    }
+    .custom {
+        font-size: 16px;
+    }
+    #headerForm h2 {
+        padding: 20px 0;
+    }
+    h2 {
+        font-size: 18px;
+        padding: 20px 0;
+    }
+    #popupForm {
+        max-width: 95%;
+        padding: 25px;
+    }
+    #popupForm2 {
+        max-width: 95%;
+        padding: 25px;
+    }
+    .closeForm {
+        right: -6%;
+        top: -8%;
+        font-size: 40px;
+    }
+    #headerForm .quote {
+        margin-top: 0;
+    }
+    .attachments {
+        font-size: 16px;
+    }
+    .quote {
+        font-size: 16px;
+    }
+    .testimonialsList li {
+        font-size: 12px;
+    }
+    .testimonials h2 {
+        padding: 20px 0;
+    }
+    .testimonialsList li:nth-child(even) {
+        padding: 0;
+    }
+    #headLogoTxt {
+        height: 35px;
+        width: inherit !important;
+    }
+    #navIcon {
+        height: 19px;
+        width: 19px;
+        top: 13px;
+    }
+    .contactFormBlockMain h2 {
+        padding: 90px 0 60px;
+        width: 280px;
+        margin: auto;
+    }
+    .footerMenu ul {
+        display: none;
+    }
+    .footerLinks div {
+        font-size: 10px;
+    }
+    .contactFormBlockMain h2 {
+        padding: 90px 0 30px;
+    }
+    .values li {
+        padding: 10px 0;
+    }
+    .values li img {
+        width: 100px;
+    }
+    .values li p, .values li div {
+        padding: 0 5px;
+    }
+    .values li p {
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    .values li div {
+        font-size: 10px;
+    }
+    .credoBlock {
+        padding: 25px 15px;
+    }
+    .credo div:first-child {
+        font-size: 16px;
+        width: 100%;
+    }
+    .credo div:last-child {
+        font-size: 12px;
+        width: 100%;
+    }
+    .credoBlock .credo:first-child {
+        padding-bottom: 10px;
+    }
+    #contactsBack .contactFormBlockMain h2:last-of-type {
+        font-size: 16px;
+    }
+    .caseStudiesPage h2 {
+        padding: 70px 0 0;
+    }
+    .caseStudiesPage h3 {
+        font-size: 16px;
+    }
+    .caseStudiesPage p {
+        font-size: 14px;
+    }
+    .caseStudiesFull h2 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .titleQuestion {
+        padding: 10px;
+    }
+    .caseStudies .menuLinks .link {
+        font-size: 16px;
+    }
+    .menuLinks {
+        padding: 15px 0;
+    }
+    .testimonialsList {
+        padding: 0;
+    }
+    .testimonials .testimonialsList li {
+        font-size: 12px;
+    }
+    .testimonials h1 {
+        font-size: 22px;
+        padding: 40px 0 10px;
+    }
+    .learnMore {
+        padding: 8px 15px;
+    }
+    #competenciesBack {
+        height: calc(100vh + 45px);
+    }
+}
+
+@media (max-width: 380px) {
+    .contactsPageBlock .contact {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+    .contact {
+        padding: 10px 0;
+    }
+    .positionLocation {
+        width: 100%;
+    }
+    .position > li:last-child {
+        width: 100%;
+    }
+    .position li {
+        text-align: center;
+    }
+    .employee {
+        width: 50px;
+        height: 50px;
+    }
+    .mainTitleInner {
+        padding-top: 0;
+    }
+    .credo {
+        margin: 0 10px 10px;
+    }
+}
+@media (max-height: 400px) and (orientation: landscape) {
+    #contactsHeaderText h2 {
+        font-size: 20px;
+        padding: 25px 0 10px;
+    }
+    #contactsHeaderText {
+        padding: 0;
+    }
+    #contactsMission {
+        width: 300px;
+        font-size: 14px;
+        padding: 10px 5px;
+        word-spacing: -1px;
+        margin: 20px auto 15px;
+    }
+    .contactsPageBlock .contact {
+        font-size: 12px;
+        vertical-align: sub;
+    }
+    .contactsPageBlock .contactBtns {
+        padding-top: 0;
+    }
+    .contactsPageBlock .contactBtn {
+        font-size: 12px;
+        width: 100px;
+        padding: 5px 0;
+        border: 1px solid #fff;
+        margin-bottom: 10px;
+        top: 30px;
+    }
+    #contactsHeaderText p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px) and (orientation: landscape) {
+    #sliderBack h2 {
+        font-size: 24px;
+    }
+}
+@media (max-height: 520px) and (orientation: portrait) {
+    #technologies > li {
+        height: 110px;
+    }
+}
+@media (max-height: 580px) {
+    .guarant {
+        width: 80px;
+        height: 80px;
+    }
+}
+@media (max-height: 550px) and (orientation: landscape) {
+    .headerText {
+        top: 90px;
+    }
+    .headerText h2 {
+        font-size: 30px;
+    }
+    .headerText p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 10px 0 30px;
+    }
+    .headerText a.seeWorks {
+        font-size: 27px;
+        padding: 10px 35px;
+    }
+}
+@media (max-height: 500px) and (orientation: landscape) {
+    .headerText h2 {
+        font-size: 27px;
+    }
+}
+@media (max-height: 450px) and (orientation: landscape) {
+    .headerText h2 {
+        font-size: 26px;
+    }
+    .headerText p {
+        font-size: 17px;
+    }
+    .headerText a.seeWorks {
+        font-size: 25px;
+        padding: 5px 35px;
+    }
+}
+@media (max-height: 410px) and (orientation: landscape) {
+    .headerText {
+        padding: 0;
+    }
+    .headerText h2 {
+        font-size: 20px;
+    }
+    .headerText p {
+        display: none;
+    }
+    #mission {
+        display: block;
+    }
+    .headerText a.seeWorks {
+        font-size: 22px;
+        padding: 10px 30px;
+    }
+    .headerText p {
+        font-size: 16px;
+        background-color: #fff;
+        color: #003241;
+        margin: 5px 0 20px;
+    }
+    .headerText p span {
+        display: none;
+    }
+}
+
+/*-- media for cases --*/
+
+@media (max-width: 1440px) {
+    .descriptionWork h2 {
+        font-size: 28px;
+    }
+    .descriptionWork {
+        font-size: 22px;
+        max-width: 1100px;
+    }
+    .descriptionWork.descriptionWorkcrw {
+        max-width: 1400px;
+    }
+    .descriptionWork.descriptionWorkempl {
+        max-width: 1400px;
+        padding: 0;
+        font-size: 18px;
+    }
+    .descriptionWorkplaceText.descriptionWorkplaceTextempl {
+        padding: 0 40px 80px;
+        font-size: 18px;
+    }
+    .descriptionWork.descriptionWorklab {
+        color: #fff;
+        max-width: 1400px;
+        background-color: #323232;
+    }
+    .descriptionWork.descriptionWorkdetox {
+        max-width: 1400px;
+        font-size: 16px;
+        padding: 0 30px 0 150px;
+    }
+}
+@media (max-width: 1160px) {
+    .descriptionWork {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .descriptionWork.descriptionWorkcrw {
+        padding: 0;
+    }
+}
+@media (max-width: 600px) {
+    .descriptionWork h2 {
+        font-size: 20px;
+        padding: 0;
+    }
+    .descriptionWork {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+    .descriptionWorkplaceText.descriptionWorkplaceTextcrw {
+        font-size: 20px;
+    }
+    .descriptionWorkplaceText.descriptionWorkplaceTextempl {
+        padding: 0 20px 40px;
+        font-size: 12px;
+    }
+    .descriptionWorkplaceText.descriptionWorkplaceTextLab {
+        padding: 0 20px;
+        font-size: 16px;
+    }
+    .descriptionWork.descriptionWorkdetox {
+        font-size: 12px;
+        padding: 0 30px 0 50px;
+    }
+    .descriptionWork.descriptionWorkezatik {
+        font-size: 12px;
+    }
+    .descriptionWork.descriptionWorkezatik h2 {
+        font-size: 14px;
+    }
+}
+
+@media (max-height: 700px) {
+    .circleRead {
+        bottom: 15px;
+    }
+}
+@media (max-height: 500px) {
+    .circleRead p {
+        display: none;
+    }
+    .circleRead {
+        width: 50px;
+        height: 50px;
+        padding: 10px 0;
+    }
+}

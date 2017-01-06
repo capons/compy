@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+body{
+    position: relative;
+    background: url("/css/img/site_user_id-bnb.gif");
+    display: block;
+    overflow-x: hidden;
+}
+.noselect {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+
+/*-----sliderInfo----*/
+
+.slider {
+    height: 550px;
+}
+
+#leftSlider {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#rightSlider {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+/*----About----*/
+#infoSpecialist{
+    position: relative;
+    padding-top: 60px;
+    opacity: 0.9;
+}
+#about{
+    margin: 0 auto;
+    width: 440px;
+    height: 405px;
+    background: #84857e;
+}
+
+#absoluteAbout{
+    position: absolute;
+    width: 440px;
+    height: 405px;
+}
+
+#photo{
+    margin-left: 100px;
+    margin-top: -20px;
+    width: 240px;
+    height: 190px;
+    background: #6f6f6b;
+}
+
+.inform{
+    margin-left: 80px;
+    margin-top: 9px;
+    width: 280px;
+    height: 40px;
+    background: #6f6f6b;
+}
+
+#inform2{
+    margin-left: 80px;
+    width: 280px;
+    height: 50px;
+    margin-top: 10px;
+    background: #6f6f6b;
+}
+
+/*----absoluteDots----*/
+#absoluteDots{
+    width: 100%;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+.dot{
+    float: left;
+    margin-right: 7px;
+}
+.dots{
+    float: left;
+}
+
+/*----absoluteArrow----*/
+#absoluteArrow{
+    position: absolute;
+    margin-top: -250px;
+    width: 100%;
+}
+#prevArrow{
+    float: left;
+    margin-left: 5%;
+    width: 30%;
+}
+#nextArrow{
+    float: right;
+    margin-right: 5%;
+    width: 30%;
+}
+#leftArrow{
+
+}
+#rightArrow{
+    float: right;
+}
+
+/*-----blocks----*/
+#content{
+    margin: 0 auto;
+    max-width: 90%;
+    min-width: 420px;
+    margin-bottom: 5%;
+}
+
+/*-----miniBlocks----*/
+.miniBlocks{
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 20%;
+    min-width: 440px;
+    width: 100%;
+    height: 50px;
+    background: #989a97;
+}
+
+
+/*-----bigBlocks----*/
+.blocks{
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 285px;
+
+    max-width:90%;
+    min-width: 440px;
+    width: 100%;
+    background: #dfdfdb;
+}
+
+.blockTop{
+    margin: 0 auto;
+    height: 255px;
+}
+
+.blockFooter{
+    float: left;
+    height: 30px;
+    width: 100%;
+    background: #6f6f6b;
+}
+.blockFooter .leftArrow{
+    float: left;
+    max-width: 3%;
+    min-width: 50px;
+    width: 100%;
+}
+.blockFooter .rightArrow{
+    float: right;
+    max-width: 3%;
+    min-width: 50px;
+    width: 100%;
+}
+
+
+/*---Status---*/
+#status{
+    position: absolute;
+    width: 100%;
+    margin-left: 350px;
+    margin-top: -30px;
+    opacity: 0.5;
+}

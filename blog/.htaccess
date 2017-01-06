@@ -1,0 +1,56 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /blog/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /blog/index.php [L]
+</IfModule>
+
+
+
+# --------------------------------------------------ДЛЯ ВКЛЮЧЕНИЯ КЕШИРОВАНИЯ
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType application/javascript "access plus 1 months"
+  ExpiresByType text/javascript "access plus 1 months"
+  ExpiresByType text/css "access plus 1 months"
+  ExpiresByType image/gif "access plus 1 months"
+  ExpiresByType image/jpeg "access plus 1 months"
+  ExpiresByType image/png "access plus 1 months"
+  ExpiresByType application/x-font-ttf "access plus 1 months"
+  ExpiresByType image/svg+xml "access plus 1 months"
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch .*\.(js|css)$>
+    Header set Cache-control: private
+  </FilesMatch>
+  <FilesMatch .*\.(gif|jpg|png|ttf|svg)$>
+    Header set Cache-control: public
+  </FilesMatch>
+</IfModule>
+#----------------------------------------------------------------------------
+
+<IfModule mod_setenvif.c>
+  BrowserMatch "MSIE" force-no-vary
+  BrowserMatch "Mozilla/4.[0-9]{2}" force-no-vary
+</IfModule>
+#----------------------------------------------------------------------------
+
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/css
+  <IfModule mod_setenvif.c>
+    BrowserMatch ^Mozilla/4 gzip-only-text/html
+    BrowserMatch ^Mozilla/4\.0[678] no-gzip
+    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+  </IfModule>
+</IfModule>
+
+# END WordPress

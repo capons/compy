@@ -1,0 +1,830 @@
+.content{
+    width: 1086px;
+    min-height: 715px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 70px;
+    position: relative;
+    font-family: tahoma;
+}
+.personal_info{
+    width: 200px;
+    height: 70%;
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+}
+.top_info_user{
+    height: 30px;
+    background-color: #2c2c2c;
+    position: relative;
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.foto_user{
+    height: 216px;
+    background: url(./img/avatar.png) 50% no-repeat;
+    margin-top: 10px;
+}
+.lk{
+    height: 30px;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+.button_menu,.privateOffice{
+    height: 30px;
+    border-bottom: 1px solid #7a7a7a;
+    font-size: 18px;
+    color: #000000;
+    background: url(./img/button.png) 97% 48% no-repeat white;
+    line-height: 30px;
+    cursor: pointer;
+    padding-left: 6px;
+}
+.privateOffice{
+    background-image: none !important;
+    color: white !important;
+    background-color: black !important;
+}
+.settings_1{/*
+    width: 864px;
+    height: 370px;*/
+    width: 78%;
+    height: 100%;
+    position: relative;
+    float: right;
+}
+.content_settings{
+    font-size: 13px;
+    width: 100%;
+    height: 100%;
+}
+
+.content_settings input{
+    margin-left: 26px;
+    margin-top: 12px;
+}
+.content_settings span{
+    padding-left: 20px;
+}
+#saveSettingPersonalAccount{
+    margin: 0 auto;
+}
+/*
+.content_settings input:checked{
+    background: red !important;
+    color: #00CC00 !important;
+    border: black solid 2px;
+}
+ul.radio-group li {
+    position: relative;
+    list-style: none;
+    padding: 10px;
+    padding-left: 0px;
+}
+ul.radio-group li label{
+    font-size: 13px;
+}
+
+input[type="radio"]{
+    opacity: 0;
+    position: absolute;
+}*/
+/* Соответствует прямому потомку лейбла, которому предшествует a
+   радио-кнопка *//*
+input[type="radio"] + label > span {
+    position: relative;
+    border-radius: 12px;
+    width: 10px;
+    height: 10px;
+    background-color: #b0b0b0;
+    border: 1px solid #919191;
+    margin: 0 1em 0 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+*//* Соответствует промежутку, содержавшему прямым потомком
+   из лейбла, которому предшествует проверенная радио-кнопка *//*
+input[type="radio"]:checked + label > span span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    border-radius: 4px;
+    border: none;
+    background: #3dcd58;
+}*/
+.content_settings h1{
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 42px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+#selectLanguage{
+    width: 260px;
+    height: 32px;
+    margin-top: 15px;
+}
+
+.save{
+    width: 122px;
+    height: 32px;
+    background-color: #a8a7a7;
+    border-radius: 1px;
+    position: absolute;
+    bottom: 0;
+    clear: both;
+}
+#mailConfiguration{
+    margin-left: 55px;
+    margin-top: -20px;
+    width: 90%;
+}
+.languageSelection p,
+.languageSelection select{
+    margin-left: 50px;
+}
+.languageSelection select option{
+    margin-left: 10px;
+    font-weight: bold !important;
+}
+
+option:hover,
+option:active,
+option:focus{
+    background-color: #3dcd58 !important;
+}
+.languageSelection select{
+    font-weight: bold !important;
+    padding-left: 10px;
+}
+select{
+    background: url(./img/submitArrow.png) 98% 50% no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+select:focus {
+    outline: none;
+}
+#mailConfigurationCheckbox{
+    margin-left: 26px !important;
+    margin-top: 12px !important;
+}
+/* Начало change*/
+.settings_2,
+.settings_3,
+.settings_4{
+    width: 864px;
+    position: relative;
+    float: right;
+}
+.settings_2 .align input:focus,
+.settings_2 .margin_p input:focus {
+    outline-style: none;
+    border: 1px solid #3dcd58;
+    padding: 6px;
+    max-width: 358px;
+    width: 100%;
+    height: 26px;
+}
+.top_settings{
+    height: 30px;
+    background-color: #2c2c2c;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 30px;
+    text-indent: 1em;
+}
+.dropDownList{
+    max-width: 373px;
+    width: 100%;
+    height: 37px;
+    font-size: 16px;
+}
+.wrap_align{
+    float: left;
+    margin-bottom: 20px;
+    padding-right: 122px;
+}
+.wrap_align_2{
+    float: left;
+    margin-bottom: 20px;
+}
+.align{
+    overflow: hidden;
+    padding-right: 28px;
+    max-width: 730px;
+    min-width: 100px;
+    width: 100%;
+    text-align: right;
+    margin-top: 20px;
+    line-height: 36px;
+}
+
+label{
+    float: left;
+    padding-right: 40px;
+    font-size: 15px;
+    text-indent:3em;
+    font-weight: bold;
+}
+#labelSkype{
+    color: #22c3ff !important;
+}
+.inputFields {
+    padding: 5px;
+    max-width: 358px;
+    height: 26px;
+    font-size: 16px;
+    width: 100%;
+    min-width: 100px;
+}
+.save_2{
+    width: 122px;
+    height: 32px;
+    background-color: #a8a7a7;
+    border-radius: 1px;
+    float: right;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 5px;
+}
+.save_2:focus, .save_2:active{
+    border: 2px solid #989898 !important;
+}
+.anketa{
+    background-color: #707070;
+    height: 30px;
+    color: #ffffff;
+    line-height: 30px;
+    text-indent: 1em;
+    clear: both;
+    text-align: left;
+}
+#typeOfShooting,
+.result_filter{
+    max-width: 657px;
+    width: 96%;
+    height: 25px;
+    border: 1px solid #000000;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.result_filter:focus,
+.result_filter:active{
+    width: 670px !important;
+    height: 24px !important;
+    margin-top: 20px;
+}
+.filter{
+    width: 170px;
+    font-size: 10px;
+    float: left;
+    margin-top: 5px;
+}
+.margin_p{
+    margin-top: 20px;
+}
+.margin_p p{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.conteuner_align{
+    position: relative;
+    float: left;
+    left: 3em;
+    margin-bottom: 20px;
+}
+
+.align_save{
+    width: 795px;
+}
+
+.changePage {
+    display:none;
+
+}
+.star{
+    font-size: 10px;
+    color: #3dcd58;
+    vertical-align: 9px;
+    margin-left: -15px;
+    margin-right: 3px;
+}
+.qualification{
+    color: #6f6b6b;
+    max-width: 365px;
+    width: 100%;
+    float: right;
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.textError{
+    color: red;
+    width: 367px;
+    float: right;
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+}
+.textOk{
+    margin-right: -23px;
+    display: none;
+}
+#avatar {
+    max-width: 315px;
+    width: 61%;
+    min-width: 61px;
+    height: 17px;
+    padding-top: 5px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+#avatar:focus,
+#avatar:active{
+    width: 315px;
+    height: 19px;
+}
+input[type="checkbox"],
+input[type="checkbox"]:focus,
+input[type="checkbox"]:active{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+#avatarPhoto {
+    max-width: 44px;
+    min-width: 44px;
+    height: 36px;
+    margin-left: -5px;
+    background: url(./img/camera.png) 100% 63% no-repeat #3dcd58;
+    border: 0px solid #3dcd58 !important;
+    cursor: pointer;
+    padding: 15px;
+}
+#avatarPhoto:focus, #avatarPhoto:active{
+    margin-top: 0px;
+}
+#addAnotherNumber{
+    cursor: pointer;
+}
+.additionalInformation{
+    margin-top: 5px;
+    max-width: 672px !important;
+    width: 100%;
+}
+.additionalInformation:focus{
+    max-width: 672px !important;
+    outline-style: none;
+    border: 1px solid #3dcd58;
+    padding: 6px;
+    width: 100% !important;
+    height: 26px;
+}
+.margin_p p:first-child{
+    padding-top: 20px;
+}
+.blockTypeOfRecording{
+    overflow: hidden;
+    padding-left: 20px;
+    margin-left: -20px;
+}
+/* конец change*/
+/* Начало Галерея*/
+
+
+.photoAlbumPage{
+    display: none;
+}
+
+.galery_button{
+    float: right;
+    height: 22px;
+    background-color: #3dcd58;
+    color: #ffffff;
+    margin: 3px 8px 3px;
+    line-height: 22px;
+    border-radius: 1px;
+    border: 1px solid #919090;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+#galery_settings{
+    width: 20px;
+    background: url(./img/edditButton.png) 100% 100% no-repeat #3dcd58;
+}
+#add_video{
+    width: 125px;
+}
+#add_photo{
+    width: 125px;
+}
+#add_album{
+    width: 135px;
+}
+.type_photo{
+    margin-top: 10px;
+    height: 32px;
+}
+.type{
+    width: 150px;
+    height: 32px;
+    float: left;
+    text-align: center;
+    color: #aeaeae;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.typeActive{
+    background: url(./img/personalMenuArrow.png) 50% 100% no-repeat;
+    color: #2c2c2c;
+}
+
+.wrap_photo{
+    background-color: #aeaeae;
+    overflow: hidden;
+    min-width: 215px;
+}
+.wrapPhotoConteiner{
+    overflow: hidden;
+    margin: 4px;
+}
+.statistics{
+    width:197px;
+    height: 202px;
+    border: 4px dashed #ffffff;
+    float: left;
+    margin: 4px;
+    position: relative;
+
+}
+.photo_poster{
+    width: 205px;
+    height: 210px;
+    float: left;
+    margin: 4px;
+    position: relative;
+    background: url(./img/car1.png) 50% 100% no-repeat;
+}
+.bottom_statistics{
+    height: 30px;
+    width: 100%;
+    background-color: rgba(69, 68, 70, 0.85);
+    position: relative;
+    bottom: 62px;
+    line-height: 30px;
+    z-index: 3;
+}
+.photo_poster img{
+    position: relative;
+    top: -30px;
+    z-index: 2;
+}
+.topButtonsAlbum{
+    opacity: 0;
+    height: 30px;
+    width: 100%;
+    background-color: rgba(69, 68, 70, 0.85);
+    position: relative;
+    line-height: 30px;
+    z-index: 3;
+}
+.title_photo{
+    margin-left: 4px;
+    float: left;
+    color: #3dcd58;
+    cursor: pointer;
+}
+.number_photo{
+    margin-right: 4px;
+    height: 30px;
+    float: right;
+    color: #3dcd58;
+    font-size: 13px;
+    vertical-align: bottom;
+    cursor: default;
+}
+.wrap_plus{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight:bold;
+}
+.statistics_info{
+    line-height: 0.7;
+    position: absolute;
+    bottom: 12px;
+    left: 5px;
+}
+.text_statistics{
+    color: #ffffff;
+    font-size: 10px;
+}
+.buttonsAlbum{
+    height: 20px;
+    width: 20px;
+    float: right;
+    margin: 5px;/*
+    cursor: pointer;*/
+}
+.editAlbum{
+    background: url(./img/edditButton.png) 100% 100% no-repeat;
+}
+.deleteAlbum{
+    background: url(./img/deleteAlbum.png) 50% 100% no-repeat;
+}
+#displayBlockPhoto{
+    display: none;
+}
+.photoAlbumPage .settings_3 .top_settings,
+.wrap_photo {
+    max-width: 860px !important;
+}
+.allPhotoButton,
+.allAlbumButton{
+    padding: 10px;
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.allPhotoButton label,
+.allAlbumButton label{
+    background: #000000;
+    color: #ffffff;
+    float: right;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* Конец Галерея*/
+
+
+
+/* Начало календарь*/
+.calendarPersonPage{
+    display: none;
+}
+.calendarBlock{
+    margin-top: 12px;
+}
+.calendarBlock .monthName{
+    width: 99.99% !important;
+    background: url(./img/manthBackground.png) 50% -200% no-repeat #2c2c2c;
+}
+.calendarBlock .monthName span{
+    color: #ffffff;
+    width: 100%;
+}
+.calendarBlock .table {
+    width: 100% !important;
+}
+.calendarBlock .table tr td {
+    font-size: 32px !important;
+}
+.calendarMenuButton{
+    float: right;
+    height: 22px;
+    background-color: #3dcd58;
+    color: #ffffff;
+    margin: 3px 8px 3px;
+    line-height: 22px;
+    border-radius: 1px;
+    border: 1px solid #919090;
+    cursor: pointer;
+    font-size: 13px;
+}
+.calendarBlock .table tr th {
+    font-weight: normal;
+}
+#addEvent {
+    width: 160px;
+}
+#menyEditCalendarSettings {
+    width: 20px;
+    background: url(./img/edditButton.png) 100% 100% no-repeat #3dcd58;
+}
+#menyCalendarSettings {
+    width: 20px;
+    background: url(./img/deleteButton.png) 100% 100% no-repeat #3dcd58;
+}
+.statusBarEvents{
+    width: 100%;
+    background: #2c2c2c;
+    margin-top: 14px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+.events{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dataEvents{
+    color: #aeaeae;
+    font-weight: bold;
+}
+.topicEvents{
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 9px;
+    font-size: 14px;
+}
+.textEvents{
+    color: #ffffff;
+    padding-top: 6px;
+    padding-left: 25px;
+    font-size: 14px;
+}
+/* Конец календарь*/
+
+
+
+
+/* Начало блог*/
+.BlogPersonal{
+    display: none;
+}
+.editBlock,
+.menuItemsBlog,
+.textAreaBlog{
+    width: 100%;
+}
+#menuItemRecommendedRecord{
+    width: 220px;
+}
+.editBlock{
+    padding: 5px;
+}
+.menuItemsBlog{
+    margin-top: 10px;
+    height: 32px;
+}
+.wrapBlog{
+    background-color: #aeaeae;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+}
+#displaySettings{
+    display: none;
+}
+/* Конец блог*/
+
+
+
+
+
+/* Начало история заказов*/
+.HistoryOrderPage{
+    display: none;
+}
+.wrap_neworder{
+    overflow: hidden;
+    background-color: #2c2c2c;
+    margin-top: 20px;
+}
+.conteuner_neworder{
+    margin: 10px;
+}
+.top_neworder{
+    width: 100%;
+    height: 30px;
+}
+.title_neworder{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    float: left;
+    line-height: 30px;
+
+}
+.date_neworder{
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: bold;
+    float: right;
+}
+.content_neworder{
+    clear: both;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+.readmore_neworder{
+    display: inline;
+}
+.readmore_align{
+    color: #3dcd58;
+    cursor: pointer;
+}
+.buttom_neworder{
+    height: 20px;
+    margin-top: 20px;
+}
+.challenge_assessment{
+    float: left;
+    font-size: 14px;
+    color: #aeaeae;
+    cursor: pointer;
+}
+.stars_neworder{
+    float: right;
+}
+/* Начало рейтинг звезды*/
+
+#reviewStars-input input:checked ~ label, #reviewStars-input label, #reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+    background: url('/css/img/star_2.png') no-repeat;
+}
+
+.reviewStars-input {
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+#reviewStars-input input {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    width: 5px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+#reviewStars-input input:checked ~ label {
+    background-position: 0 -20px;
+    height: 20px;
+    width: 5px;
+}
+
+#reviewStars-input label {
+    background-position: 0 0;
+    height: 20px;
+    width: 5px;
+    float: right;
+    cursor: pointer;
+    margin-right: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+#reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+    background-position: 0 -20px;
+    height: 20px;
+    width: 5px;
+}
+
+
+
+/* Конец рейтинг звезды*/
+/* Конец история заказов*/
+
+/* Начало добавление заказа*/
+.AddOrderPage{
+    display: none;
+
+}
+/* Конец добавление заказа*/
+
+
+/* добавление альбома */
+
+.createAlbumDiv {
+    position: fixed;
+    background-color: lightgray;
+    border-style: groove;
+    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+    display: none;
+    z-index: 100;
+}
+
+.closeAlbumFormButton {
+    right: 0;
+}

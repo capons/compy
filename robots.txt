@@ -1,0 +1,17 @@
+#Default robots.txt file (ask all bots to crawl slowly but still index everything).
+
+User-agent: *
+Allow: *.css
+Allow: *.js
+Allow: *.jpg
+Allow: /wp-content/uploads/
+
+Disallow: /cgi-bin
+Disallow: /wp-admin/
+Disallow: /feed/
+Disallow: /filters/
+Disallow: /*?
+Disallow: /*.php
+Disallow: /?s
+
+Sitemap: http://computoolsglobal.com/sitemap_index.xml

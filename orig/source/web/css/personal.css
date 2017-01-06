@@ -1,0 +1,31 @@
+.proBlock{
+    width: 704px;
+    height: 80px;
+    background-color:darkgray;
+    margin-top: 40px;
+    margin-left: 758px;
+}
+
+.blockIn {
+    width: 1020px;
+    height:800px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.buttonBlock {
+    width: 305px;
+    height: 800px;
+    background-color: lightgrey;
+    padding-right: 5px;
+    float: left;
+
+}
+
+.contentBlock {
+    height: 800px;
+    width: 704px;
+    background-color: lightgrey;
+    float: right;
+
+}

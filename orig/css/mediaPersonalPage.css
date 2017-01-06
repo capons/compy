@@ -1,0 +1,339 @@
+@media (max-width: 2700px){
+    .contentBlock{
+        width: 1086px;
+    }
+    .topPersonalPage{
+        height: 605px;
+    }
+    .topPersonalPage {
+        margin-top: 0px;
+    }
+}
+@media (max-width: 1200px){
+    .contentBlock{
+        width: 91%;
+    }
+    .topPersonalPage{
+        height: 655px;
+    }
+    .menuSettings{
+        width: 100%;
+    }
+}
+@media (min-width: 785px){
+    .personalBlockInfo {
+        top: 457px;
+        left: 65px;
+    }
+    .topPersonalPage {
+        height: 655px;
+    }
+    .personalBlockPhoto{
+        float: left;
+        top: 289px;
+        left: 38px;
+    }
+    .personalBlockInfo {
+        top: 457px;
+        left: 65px;
+    }
+}
+@media (max-width: 785px){
+    .personalBlockPhoto{
+        float: none;
+        margin: 0 auto;
+        top: 125px;
+        left: 0px;
+    }
+
+    .personalBlockInfo {
+        top: 160px;
+        left: 50px;
+    }
+    .personalName{
+        width: 100%;
+    }
+}
+
+@media (min-width: 595px){
+    .menuPersonalPage {
+        height: 60px;
+    }
+}
+@media (max-width: 595px){
+    .menuPersonalPage {
+        height: 78px;
+    }
+    .buttonMenu{
+        float: none;
+    }
+    .menuSettings {
+         display: flex;
+         float: right;
+     }
+}
+@media (max-width: 530px){
+    .menuPersonalPage {
+        height: 78px;
+    }
+    .buttonMenu{
+        float: left;
+    }
+    .menuSettings {
+        display: block;
+        float: right;
+    }
+    .menuPersonalPage {
+        height: 118px;
+    }
+    .buttonMenu{
+        width: 148px;
+    }
+}
+@media (max-width: 505px){
+    .buttonMenu{
+        width: 130px;
+    }
+}
+@media (max-width: 446px){
+    .buttonMenu{
+        width: 115px;
+    }
+}
+@media (max-width: 439px){
+    .buttonMenu{
+        width: 115px;
+    }
+    .topPersonalPage {
+         margin-top: 100px;
+     }
+    .personalName{
+        width: 90%;
+    }
+
+}
+@media (max-width: 396px){
+    .menuPersonalPage {
+        height: 177px;
+    }
+    .buttonMenu {
+        width: 50%;
+    }
+}
+
+
+/*===============Block Friends================*/
+@media (min-width: 885px){
+    .blockFriend{
+        width: 326px;
+    }
+}
+@media (max-width: 885px){
+    .blockFriend{
+        width: 43%;
+    }
+}
+@media (max-width: 700px){
+    .blockFriend{
+        width: 90%;
+    }
+}
+@media (min-width: 693px){
+    .formSearchFriends{
+        margin-top: 0px;
+    }
+}
+@media (max-width: 693px){
+    .formSearchFriends{
+        margin-top: 20px;
+    }
+}
+@media (min-width: 455px){
+    .buttonMenuFriends {
+        width: 120px;
+    }
+}
+@media (max-width: 455px){
+    .buttonMenuFriends {
+        width: 100px;
+    }
+}
+@media (max-width: 380px){
+    .buttonMenuFriends {
+        width: 30%;
+    }
+}
+/*=============End Block Friends==============*/
+
+/*=====================Start Block Search=====================*/
+@media (max-width: 1200px){
+    #blockSearch{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+}
+@media (max-width: 1000px){
+    #blockSearch{
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+}
+@media (max-width: 800px){
+    #blockSearch{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+@media (max-width: 700px){
+    #blockSearch{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
+@media (max-width: 600px){
+    #blockSearch{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 595px){
+    .blockSearchPersonalPage {
+        height: 686px;
+    }
+}
+@media (max-width: 530px){
+    .blockSearchPersonalPage {
+        height: 721px;
+    }
+}
+@media (max-width: 494px){
+    #formSearch p{
+        width: 90%;
+    }
+    #blockSearch {
+        height: 260px;
+    }
+}
+@media (max-width: 439px){
+    #inputTypeOfShooting,
+    #inputCity {
+        width: 90%;
+    }
+    #blockSearch {
+        height: 315px;
+    }
+    .blockSearchPersonalPage {
+        height: 810px;
+    }
+}
+@media (max-width: 396px){
+    .blockSearchPersonalPage {
+        height: 860px;
+    }
+    #blockSearch {
+        min-width: 150px;
+    }
+    #inputTypeOfShooting,
+    #inputCity,
+    #inputTypeOfShootingPerformer,
+    #buttonSearchForm{
+        min-width: 100px;
+        width: 75%;
+    }
+}
+/*=====================End Block Search=====================*/
+
+/*===============Block Portfolio================*/
+
+@media (max-width: 2700px){
+    .contentPortfolio{
+        width: 1086px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1200px){
+    .contentPortfolio{
+        width: 810px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 988px){
+    .contentPortfolio{
+        width: 550px;
+        margin: 0 auto;
+    }
+}
+@media (mix-width: 664px){
+    .buttonMenuPortfolio {
+        width: 175px;
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+    .blockMenuPortfolio hr {
+        margin-top: 0px;
+    }
+}
+@media (max-width: 664px){
+    .buttonMenuPortfolio {
+        width: 100%;
+        display: block;
+        padding-bottom: 10px;
+        margin: 0 auto;
+    }
+    .blockMenuPortfolio hr {
+        margin-top: 15px;
+    }
+}
+@media (max-width: 640px){
+    .contentPortfolio{
+        width: 260px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 396px){
+    .blockMenuPortfolio hr {
+        margin-top: 20px;
+    }
+}
+/*=============End Block Portfolio==============*/
+
+/*===============Block Blog================*/
+
+@media (min-width: 730px){
+    .textComment {
+        width: 98%;
+    }
+}
+@media (max-width: 730px){
+    .textComment {
+        width: 97%;
+    }
+}
+@media (max-width: 490px){
+    .contentHashtag,
+    .recordingDate {
+        float: left;
+        width: 100%;
+    }
+    .contentHashtagAndDate {
+         padding-bottom: 35px;
+    }
+    .textComment {
+        width: 95%;
+    }
+}
+@media (min-width: 450px){
+    .blogSocialButton {
+        float: right;
+        display: block;
+        padding-top: 0px;
+    }
+}
+@media (max-width: 450px){
+    .blogSocialButton {
+        float: none;
+        display: table-cell;
+        padding-top: 15px;
+    }
+}
+/*=============End Block Blog==============*/
